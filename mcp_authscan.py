@@ -1309,6 +1309,41 @@ def generate_html_report(findings, target, output_file):
     
     return output_file
 
+
+# ---- HTML Report Generation ----
+def generate_html_report(findings, target, output_file):
+    """Generate a polished HTML security report."""
+    from datetime import datetime
+    
+    order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3, "INFO": 4}
+    findings_sorted = sorted(findings, key=lambda x: (order.get(x["severity"], 9), x.get("file", "")))
+    
+    counts = {}
+    for f in findings:
+        sev = f["severity"]
+        counts[sev] = counts.get(sev, 0) + 1
+    
+    critical = counts.get("CRITICAL", 0)
+    high = counts.get("HIGH", 0)
+    medium = counts.get("MEDIUM", 0)
+    low = counts.get("LOW", 0) + counts.get("INFO", 0)
+    
+    html_content = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>mcp-authscan Report</title><style>body{font-family:sans-serif;margin:0;padding:20px;background:#f5f5f5}.container{max-width:1200px;margin:0 auto;background:white;border-radius:8px;padding:30px}.header{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:20px;border-radius:4px;margin-bottom:20px}.header h1{margin:0;font-size:2em}.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;margin:30px 0}.card{text-align:center;padding:20px;background:#f9f9f9;border-radius:4px}.card .num{font-size:2em;font-weight:bold}.critical{color:#e74c3c}.high{color:#e67e22}.findings{margin:20px 0}.finding{border-left:4px solid #ddd;padding:15px;margin:15px 0}.finding.critical{border-left-color:#e74c3c}.finding.high{border-left-color:#e67e22}.finding h3{margin:0 0 10px 0}</style></head><body><div class=\"container\"><div class=\"header\"><h1>🔒 mcp-authscan Report</h1><p>Target: " + target + "</p></div><div class=\"summary\"><div class=\"card\"><div class=\"num critical\">" + str(critical) + "</div><div>CRITICAL</div></div><div class=\"card\"><div class=\"num high\">" + str(high) + "</div><div>HIGH</div></div><div class=\"card\"><div class=\"num\">" + str(len(findings)) + "</div><div>Total</div></div></div><div class=\"findings\">"
+    
+    if findings_sorted:
+        for f in findings_sorted:
+            sev_class = f["severity"].lower()
+            html_content += f"<div class=\"finding {sev_class}\"><h3>{f['severity']} - {f.get('rule', 'N/A')}: {f.get('title', 'N/A')}</h3><p><strong>Evidence:</strong> {f.get('evidence', 'N/A')}</p><p><strong>Remediation:</strong> {f.get('remediation', 'N/A')}</p></div>"
+    else:
+        html_content += "<p style=\"text-align:center;padding:40px;color:#666\"><h2>✅ No findings detected</h2></p>"
+    
+    html_content += "</div></div></body></html>"
+    
+    with open(output_file, 'w') as f:
+        f.write(html_content)
+    
+    return output_file
+
 def main():
     ap = argparse.ArgumentParser(description=f"VATA mcp_authscan v{VERSION}")
     ap.add_argument("target", help="path to MCP server repo/dir OR http(s)://host:port for live scanning")
