@@ -1,35 +1,93 @@
-name: MCP auth scan
+name: MCP Security Scan
+
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
-  schedule:
-    - cron: '0 6 * * 1'   # weekly, Monday 06:00 UTC
-
-permissions:
-  contents: read
-  security-events: write   # required for upload-sarif
+    branches: [main]
 
 jobs:
   mcp-authscan:
     runs-on: ubuntu-latest
+    name: Security Assessment
+    
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.12'
-
+          python-version: '3.9'
+      
       - name: Install mcp-authscan
-        run: pip install mcp-authscan==0.9.3
-
-      - name: Run scan (SARIF)
-        run: mcp-authscan . --sarif > results.sarif
-        continue-on-error: true   # still upload findings if scan exits non-zero
-
-      - name: Upload SARIF to the Security tab
+        run: |
+          pip install -e .
+      
+      - name: Run MCP security scan
+        id: scan
+        run: |
+          mcp-authscan . \
+            --include-tests \
+            --format json \
+            --output scan-report.json || true
+      
+      - name: Parse results
+        run: |
+          python3 << 'PYTHON'
+          import json
+          
+          with open('scan-report.json', 'r') as f:
+              report = json.load(f)
+          
+          summary = report.get('summary', {})
+          critical = summary.get('critical', 0)
+          high = summary.get('high', 0)
+          medium = summary.get('medium', 0)
+          
+          print(f"📊 Security Scan Results:")
+          print(f"  🔴 CRITICAL: {critical}")
+          print(f"  🟠 HIGH: {high}")
+          print(f"  🟡 MEDIUM: {medium}")
+          print(f"  ✅ PASSED: {summary.get('passed', 0)}")
+          
+          if critical > 0:
+              print(f"\n⚠️  CRITICAL findings detected - build will fail")
+              exit(1)
+          else:
+              print(f"\n✅ Security scan passed")
+          PYTHON
+      
+      - name: Upload scan report
         if: always()
-        uses: github/codeql-action/upload-sarif@v3
+        uses: actions/upload-artifact@v3
         with:
-          sarif_file: results.sarif
-          category: mcp-authscan   # coexists with CodeQL/other scanners
+          name: mcp-authscan-report
+          path: scan-report.json
+      
+      - name: Comment PR with findings
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('scan-report.json', 'utf8'));
+            const summary = report.summary;
+            
+            const comment = `## 🔒 MCP Security Scan Results
+            
+| Finding | Count |
+|---------|-------|
+| 🔴 CRITICAL | ${summary.critical} |
+| 🟠 HIGH | ${summary.high} |
+| 🟡 MEDIUM | ${summary.medium} |
+| ✅ PASSED | ${summary.passed} |
+
+[Download detailed report](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
