@@ -8,6 +8,11 @@
 ![findings](https://img.shields.io/badge/findings-anchored%20on--chain-8A2BE2)
 ![pypi](https://img.shields.io/pypi/v/mcp-authscan?color=blue)
 
+**Detector Performance** (on pinned corpus):
+[![Precision](badges/precision-badge.svg)](vata-authscan-bench.json)
+[![Recall](badges/recall-badge.svg)](vata-authscan-bench.json)
+[![F1](badges/f1-badge.svg)](vata-authscan-bench.json)
+
 > Static security scanner for the classic web-auth failures that keep shipping in
 > MCP servers, gateways, and OAuth clients — the boring bugs the AI-native scanners skip.
 
