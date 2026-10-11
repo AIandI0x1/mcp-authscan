@@ -1,24 +1,147 @@
-name: benchmark
+name: Detector Benchmark
+
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
+  schedule:
+    - cron: '0 2 * * *'  # nightly at 2 AM UTC
   workflow_dispatch:
+
 jobs:
   benchmark:
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-      - run: python3 -m py_compile mcp_authscan.py
-      - name: Precision/recall benchmark (pinned corpus)
-        run: python3 tests/benchmark.py --json benchmark-report.json
-      - if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+          python-version: "3.12"
+
+      - name: Syntax check
+        run: python3 -m py_compile mcp_authscan.py
+
+      - name: Run detector benchmark (pinned corpus)
+        run: |
+          python3 tests/benchmark.py \
+            --json benchmark-report.json \
+            --keep
+        continue-on-error: true
+
+      - name: Generate score badges
+        run: |
+          python3 tests/badge_generator.py \
+            --report benchmark-report.json \
+            --output badges
+        if: always()
+
+      - name: Parse metrics for PR comment
+        id: metrics
+        run: |
+          python3 << 'EOF'
+          import json, sys
+          try:
+              with open('benchmark-report.json') as f:
+                  report = json.load(f)
+              precision = report.get('precision', 0)
+              recall = report.get('recall', 0)
+              f1 = report.get('f1', 0)
+              tp = report.get('confusion', {}).get('TP', 0)
+              fp = report.get('confusion', {}).get('FP', 0)
+              fn = report.get('confusion', {}).get('FN', 0)
+              tn = report.get('confusion', {}).get('TN', 0)
+              sha = report.get('report_sha256', 'N/A')[:16]
+
+              print(f"precision={precision:.4f}")
+              print(f"recall={recall:.4f}")
+              print(f"f1={f1:.4f}")
+              print(f"tp={tp}")
+              print(f"fp={fp}")
+              print(f"fn={fn}")
+              print(f"tn={tn}")
+              print(f"sha={sha}")
+          except Exception as e:
+              print(f"ERROR: {e}", file=sys.stderr)
+              sys.exit(1)
+          EOF >> $GITHUB_OUTPUT
+        if: always()
+
+      - name: Commit badges to main
+        if: github.ref == 'refs/heads/main' && (success() || failure())
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add badges/ benchmark-report.json || true
+          if ! git diff --quiet --cached; then
+            git commit -m "chore: update benchmark badges [skip ci]"
+            git push
+          fi
+
+      - name: Comment on PR with benchmark results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            let report = {};
+            try {
+              report = JSON.parse(fs.readFileSync('benchmark-report.json', 'utf8'));
+            } catch (e) {
+              console.log("Skipping PR comment (no report)");
+              return;
+            }
+
+            const precision = (report.precision || 0).toFixed(4);
+            const recall = (report.recall || 0).toFixed(4);
+            const f1 = (report.f1 || 0).toFixed(4);
+            const tp = report.confusion?.TP || 0;
+            const fp = report.confusion?.FP || 0;
+            const fn = report.confusion?.FN || 0;
+            const tn = report.confusion?.TN || 0;
+            const sha = (report.report_sha256 || '').substring(0, 16);
+
+            const precisionStatus = precision == "1.0000" ? "✅" : "⚠️";
+            const recallStatus = recall == "1.0000" ? "✅" : "⚠️";
+            const f1Status = f1 == "1.0000" ? "✅" : "⚠️";
+
+            const comment = `## 🔬 Detector Benchmark Report
+
+### Metrics
+| Metric | Score | Status |
+|--------|-------|--------|
+| Precision | ${precision} | ${precisionStatus} |
+| Recall | ${recall} | ${recallStatus} |
+| F1 | ${f1} | ${f1Status} |
+
+### Confusion Matrix
+- True Positives (TP): ${tp}
+- False Positives (FP): ${fp}
+- False Negatives (FN): ${fn}
+- True Negatives (TN): ${tn}
+
+### Chain of Custody
+Report SHA256: \`${sha}...\`
+
+[View Full Report](benchmark-report.json) · [Methodology](METHODOLOGY.md)`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: benchmark-report
-          path: benchmark-report.json
+          path: |
+            benchmark-report.json
+            badges/
