@@ -27,6 +27,91 @@ v0.4 changes:
 import argparse, hashlib, json, re, sys
 from pathlib import Path
 
+
+# ---- Live MCP Server Scanning ----
+import socket
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
+from urllib.parse import urlparse
+
+LIVE_ENDPOINTS = {
+    "/sse": "GET",
+    "/message": "POST", 
+    "/mcp": "POST",
+    "/tools/list": "GET",
+}
+
+def scan_live_server(target_url):
+    """Scan a running MCP server for zero-auth, CORS, token validation issues."""
+    findings = []
+    try:
+        p = urlparse(target_url)
+        socket.create_connection((p.hostname, p.port or 80), timeout=5)
+    except Exception as e:
+        print(f"[!] Cannot reach {target_url}: {e}", file=sys.stderr)
+        return findings
+    
+    print(f"[*] Scanning live MCP server: {target_url}", file=sys.stderr)
+    
+    for path, method in LIVE_ENDPOINTS.items():
+        url = target_url.rstrip("/") + path
+        
+        # Test 1: Zero-auth endpoint
+        try:
+            req = Request(url, method=method)
+            req.add_header("User-Agent", f"mcp-authscan/{VERSION}")
+            if method == "POST":
+                req.data = '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'.encode()
+                req.add_header("Content-Type", "application/json")
+            
+            with urlopen(req, timeout=5) as resp:
+                if resp.status in [200, 201, 202]:
+                    add(findings, "D1", "CRITICAL",
+                        f"Zero-auth endpoint: {method} {path}",
+                        url, "", 0,
+                        f"Endpoint accessible without Authorization header (HTTP {resp.status})",
+                        "D1-zero-auth", "HIGH")
+        except HTTPError as e:
+            if e.code in [200, 201, 202]:
+                add(findings, "D1", "CRITICAL", f"Zero-auth: {method} {path}",
+                    url, "", 0, f"HTTP {e.code} without auth", "D1-zero-auth", "HIGH")
+        except (URLError, socket.timeout): pass
+        
+        # Test 2: CORS wildcard
+        try:
+            req = Request(url, method=method)
+            req.add_header("Origin", "https://attacker.test")
+            if method == "POST":
+                req.data = '{"jsonrpc":"2.0"}'.encode()
+                req.add_header("Content-Type", "application/json")
+            
+            with urlopen(req, timeout=5) as resp:
+                acao = resp.headers.get("Access-Control-Allow-Origin", "")
+                if acao == "*":
+                    add(findings, "D2", "CRITICAL", f"CORS wildcard on {path}",
+                        url, "", 0, "Access-Control-Allow-Origin: *", "D2-cors-wildcard", "HIGH")
+        except (HTTPError, URLError, socket.timeout): pass
+        
+        # Test 3: Invalid token accepted
+        try:
+            req = Request(url, method=method)
+            req.add_header("Authorization", "Bearer invalid_token_xyz")
+            if method == "POST":
+                req.data = '{"jsonrpc":"2.0"}'.encode()
+                req.add_header("Content-Type", "application/json")
+            
+            with urlopen(req, timeout=5) as resp:
+                if resp.status in [200, 201, 202]:
+                    add(findings, "D3", "HIGH", f"Token validation bypass on {path}",
+                        url, "", 0, "Invalid Bearer token accepted", "D3-token-validation", "HIGH")
+        except HTTPError as e:
+            if e.code in [200, 201, 202]:
+                add(findings, "D3", "HIGH", f"Token validation bypass on {path}",
+                    url, "", 0, "Invalid token accepted", "D3-token-validation", "HIGH")
+        except (URLError, socket.timeout): pass
+    
+    return findings
+
 VERSION = "0.9.4"
 
 SRC_EXT = {".py", ".js", ".ts", ".jsx", ".tsx", ".go", ".mjs", ".cjs"}
@@ -1077,7 +1162,7 @@ def scan(root, include_tests, exclude=()):
 
 def main():
     ap = argparse.ArgumentParser(description=f"VATA mcp_authscan v{VERSION}")
-    ap.add_argument("target", help="path to MCP server repo/dir")
+    ap.add_argument("target", help="path to MCP server repo/dir OR http(s)://host:port for live scanning")
     ap.add_argument("--json", action="store_true", help="emit JSON + report sha256")
     ap.add_argument("--sarif", action="store_true", help="emit SARIF 2.1.0 (GitHub code scanning)")
     ap.add_argument("--include-tests", action="store_true", help="also scan test files")
@@ -1086,7 +1171,13 @@ def main():
     ap.add_argument("--fail-on", choices=["critical", "high", "medium"], default=None)
     args = ap.parse_args()
 
-    F = scan(args.target, args.include_tests, args.exclude)
+    # Auto-detect: live server (http(s)://) or source code directory?
+    if args.target.startswith("http://") or args.target.startswith("https://"):
+        print(f"[*] Detected live server URL", file=sys.stderr)
+        F = scan_live_server(args.target)
+    else:
+        print(f"[*] Scanning source code directory", file=sys.stderr)
+        F = scan(args.target, args.include_tests, args.exclude)
     order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
     F.sort(key=lambda x: (order.get(x["severity"], 9), x["file"], x["line"]))
 
