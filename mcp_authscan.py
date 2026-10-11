@@ -1160,14 +1160,166 @@ def scan(root, include_tests, exclude=()):
             r(path, text, F)
     return F
 
+def generate_html_report(findings, target, output_file):
+    """Generate a polished HTML security report."""
+    from datetime import datetime
+    
+    order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3, "INFO": 4}
+    findings_sorted = sorted(findings, key=lambda x: (order.get(x["severity"], 9), x.get("file", "")))
+    
+    # Count findings by severity
+    counts = {}
+    for f in findings:
+        sev = f["severity"]
+        counts[sev] = counts.get(sev, 0) + 1
+    
+    critical_count = counts.get("CRITICAL", 0)
+    high_count = counts.get("HIGH", 0)
+    medium_count = counts.get("MEDIUM", 0)
+    low_count = counts.get("LOW", 0) + counts.get("INFO", 0)
+    total_count = len(findings)
+    
+    html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mcp-authscan Security Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.1em; opacity: 0.9; }
+        .target { background: rgba(255,255,255,0.1); padding: 15px; border-radius: 4px; margin-top: 15px; font-family: monospace; }
+        .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; padding: 40px; background: #f9f9f9; border-bottom: 1px solid #e0e0e0; }
+        .summary-card { text-align: center; }
+        .summary-card .number { font-size: 2.5em; font-weight: bold; margin-bottom: 5px; }
+        .summary-card .label { color: #666; font-size: 0.9em; }
+        .critical { color: #e74c3c; }
+        .high { color: #e67e22; }
+        .medium { color: #f39c12; }
+        .low { color: #3498db; }
+        .findings { padding: 40px; }
+        .finding { margin-bottom: 30px; border-left: 4px solid #e0e0e0; padding-left: 20px; }
+        .finding.critical { border-left-color: #e74c3c; }
+        .finding.high { border-left-color: #e67e22; }
+        .finding.medium { border-left-color: #f39c12; }
+        .finding.low { border-left-color: #3498db; }
+        .finding h3 { margin-bottom: 10px; font-size: 1.2em; }
+        .finding .meta { display: flex; gap: 20px; font-size: 0.9em; color: #666; margin-bottom: 10px; flex-wrap: wrap; }
+        .finding .evidence { background: #f5f5f5; padding: 15px; border-radius: 4px; font-family: monospace; font-size: 0.85em; margin: 10px 0; white-space: pre-wrap; }
+        .finding .snippet { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; font-size: 0.85em; margin: 5px 0; white-space: pre-wrap; }
+        .finding .remediation { background: #e8f5e9; padding: 15px; border-radius: 4px; margin-top: 10px; }
+        .remediation-title { color: #2e7d32; font-weight: bold; margin-bottom: 5px; }
+        .footer { background: #f9f9f9; padding: 20px; border-top: 1px solid #e0e0e0; text-align: center; color: #666; font-size: 0.9em; }
+        .severity-badge { display: inline-block; padding: 3px 8px; border-radius: 3px; font-weight: bold; font-size: 0.85em; margin-right: 10px; }
+        .severity-badge.critical { background: #fadbd8; color: #c0392b; }
+        .severity-badge.high { background: #fdebd0; color: #d35400; }
+        .severity-badge.medium { background: #fef5e7; color: #d68910; }
+        .severity-badge.low { background: #d6eaf8; color: #2980b9; }
+        @media print { body { background: white; } .container { box-shadow: none; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 mcp-authscan Security Report</h1>
+            <p>MCP Server/Code Security Assessment</p>
+            <div class="target">Target: <strong>""" + target + """</strong><br/>Scanned: """ + datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC') + """</div>
+        </div>
+        
+        <div class="summary">
+            <div class="summary-card">
+                <div class="number critical">""" + str(critical_count) + """</div>
+                <div class="label">CRITICAL</div>
+            </div>
+            <div class="summary-card">
+                <div class="number high">""" + str(high_count) + """</div>
+                <div class="label">HIGH</div>
+            </div>
+            <div class="summary-card">
+                <div class="number medium">""" + str(medium_count) + """</div>
+                <div class="label">MEDIUM</div>
+            </div>
+            <div class="summary-card">
+                <div class="number low">""" + str(low_count) + """</div>
+                <div class="label">LOW/INFO</div>
+            </div>
+            <div class="summary-card">
+                <div class="number">""" + str(total_count) + """</div>
+                <div class="label">Total Findings</div>
+            </div>
+        </div>
+        
+        <div class="findings">
+"""
+    
+    if findings_sorted:
+        for f in findings_sorted:
+            sev_class = f["severity"].lower()
+            sev_badge = f["severity"]
+            rule = f.get("rule", "N/A")
+            title = f.get("title", "N/A")
+            file_path = f.get("file", "N/A")
+            confidence = f.get("confidence", "N/A")
+            ref = f.get("ref", "N/A")
+            evidence = f.get("evidence", "N/A")
+            snippet = f.get("snippet", "N/A")
+            remediation = f.get("remediation", "See COMPLIANCE.md for details")
+            
+            html_content += f"""
+            <div class="finding {sev_class}">
+                <h3>
+                    <span class="severity-badge {sev_class}">{sev_badge}</span>
+                    {rule} - {title}
+                </h3>
+                <div class="meta">
+                    <span>📁 {file_path}</span>
+                    <span>🔍 {confidence} confidence</span>
+                    <span>📌 {ref}</span>
+                </div>
+                <div class="evidence"><strong>Evidence:</strong><br/>{evidence}</div>
+                <div class="snippet"><strong>Code:</strong><br/>{snippet}</div>
+                <div class="remediation">
+                    <div class="remediation-title">✅ Remediation:</div>
+                    {remediation}
+                </div>
+            </div>
+"""
+    else:
+        html_content += '<div style="text-align: center; padding: 40px; color: #666;"><h2>✅ No findings detected</h2><p>Your MCP implementation passed security assessment.</p></div>'
+    
+    html_content += """
+        </div>
+        
+        <div class="footer">
+            Generated by <strong>mcp-authscan</strong> — MCP Security Assessment Tool<br/>
+            <a href="https://github.com/LHMisme420/mcp-authscan">github.com/LHMisme420/mcp-authscan</a> | 
+            <a href="https://github.com/LHMisme420/mcp-authscan/blob/main/COMPLIANCE.md">Compliance Mappings</a>
+        </div>
+    </div>
+</body>
+</html>
+"""
+    
+    with open(output_file, 'w') as f:
+        f.write(html_content)
+    
+    return output_file
+
 def main():
     ap = argparse.ArgumentParser(description=f"VATA mcp_authscan v{VERSION}")
     ap.add_argument("target", help="path to MCP server repo/dir OR http(s)://host:port for live scanning")
     ap.add_argument("--json", action="store_true", help="emit JSON + report sha256")
+    ap.add_argument("--html", action="store_true", help="emit HTML report (shareable, print-friendly)")
     ap.add_argument("--sarif", action="store_true", help="emit SARIF 2.1.0 (GitHub code scanning)")
     ap.add_argument("--include-tests", action="store_true", help="also scan test files")
     ap.add_argument("--exclude", action="append", default=[], metavar="DIR",
                     help="skip a directory relative to target (repeatable)")
+    ap.add_argument("--output", "-o", metavar="FILE",
+                    help="output file for HTML/JSON report")
     ap.add_argument("--fail-on", choices=["critical", "high", "medium"], default=None)
     args = ap.parse_args()
 
@@ -1181,7 +1333,10 @@ def main():
     order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
     F.sort(key=lambda x: (order.get(x["severity"], 9), x["file"], x["line"]))
 
-    if args.sarif:
+    if args.html:
+        html_file = generate_html_report(F, args.target, args.output or "mcp-authscan-report.html")
+        print(f"[+] HTML report saved to {html_file}")
+    elif args.sarif:
         print(json.dumps(to_sarif(F, args.target), indent=2))
     elif args.json:
         payload = {"target": args.target, "count": len(F), "findings": F}
@@ -1240,3 +1395,6 @@ OAUTH_2_1_CHECKS = {
     "response_type_confusion": [r'response_type.*multiple', r'accepts.*code.*token'],
     "dop_not_enforced": [r'dpop.*optional', r'dpop.*not.*required'],
 }
+
+# ---- HTML Report Generation ----
+
