@@ -24,7 +24,7 @@ v0.4 changes:
    dirs (testhelpers/mocks/fixtures) are skipped.
  - A5 skips comments and help-text string literals (was flagging CLI help text).
 """
-import argparse, hashlib, json, re, sys
+import argparse, hashlib, json, re, sys, ipaddress, os, time
 from pathlib import Path
 
 
@@ -40,6 +40,81 @@ LIVE_ENDPOINTS = {
     "/mcp": "POST",
     "/tools/list": "GET",
 }
+
+# ---- Security Hardening ----
+PRIVATE_IP_RANGES = [
+    ipaddress.ip_network("10.0.0.0/8"),
+    ipaddress.ip_network("172.16.0.0/12"),
+    ipaddress.ip_network("192.168.0.0/16"),
+    ipaddress.ip_network("127.0.0.0/8"),
+    ipaddress.ip_network("169.254.0.0/16"),
+    ipaddress.ip_network("::1/128"),
+    ipaddress.ip_network("fc00::/7"),
+    ipaddress.ip_network("fe80::/10"),
+]
+
+def is_private_ip(ip_str):
+    try:
+        ip = ipaddress.ip_address(ip_str)
+        return any(ip in net for net in PRIVATE_IP_RANGES)
+    except ValueError:
+        return False
+
+def validate_target_host(hostname, port):
+    try:
+        addr_info = socket.getaddrinfo(hostname, port, type=socket.SOCK_STREAM)
+        if not addr_info:
+            raise ValueError(f"Cannot resolve {hostname}")
+        resolved_ip = addr_info[0][4][0]
+        if is_private_ip(resolved_ip):
+            raise ValueError(f"Target {hostname} resolves to private IP {resolved_ip} (DNS rebinding protection)")
+        return resolved_ip
+    except socket.gaierror as e:
+        raise ValueError(f"DNS resolution failed for {hostname}: {e}")
+
+MAX_RESPONSE_SIZE = 10_000_000
+
+def safe_read_response(req, timeout=5, max_size=MAX_RESPONSE_SIZE):
+    try:
+        with urlopen(req, timeout=timeout) as resp:
+            data = b''
+            chunk_size = 65536
+            while len(data) < max_size:
+                chunk = resp.read(chunk_size)
+                if not chunk:
+                    break
+                data += chunk
+            if len(data) >= max_size:
+                raise ValueError(f"Response exceeded {max_size} bytes (DoS protection)")
+            return data
+    except HTTPError as e:
+        if e.fp:
+            e.fp.read()
+        raise
+
+class RateLimiter:
+    def __init__(self, requests_per_second=10):
+        self.min_interval = 1.0 / requests_per_second
+        self.last_request = 0
+    
+    def wait(self):
+        elapsed = time.time() - self.last_request
+        if elapsed < self.min_interval:
+            time.sleep(self.min_interval - elapsed)
+        self.last_request = time.time()
+
+def validate_input_path(path_str):
+    path = Path(path_str).resolve()
+    if not path.exists():
+        raise ValueError(f"Path does not exist: {path_str}")
+    if not os.access(path, os.R_OK):
+        raise ValueError(f"No read permission: {path_str}")
+    forbidden = {'/proc', '/sys', '/dev', '/etc', '/root', '/boot', '/var', '/lib', '/usr/bin', '/bin'}
+    for fd in forbidden:
+        if str(path).startswith(fd):
+            raise ValueError(f"Cannot scan sensitive directory {fd}: {path_str}")
+    return path
+
 
 def scan_live_server(target_url):
     """Scan a running MCP server for zero-auth, CORS, token validation issues."""
@@ -140,6 +215,8 @@ def iter_files(root, include_tests, exclude=()):
     paths = [root] if root.is_file() else root.rglob("*")
     skipped = 0
     for p in paths:
+        if p.is_symlink():
+            continue
         if not (p.is_file() and p.suffix in SRC_EXT):
             continue
         if p.resolve() == SELF_PATH:
