@@ -9,7 +9,7 @@ data = {}
 def handle(req):
     m = req.get("method")
     if m == "initialize":
-        return {"jsonrpc":"2.0","id":req["id"],"result":{"protocolVersion":"2024-11-05","capabilities":{},"serverInfo":{"name":"Gold","version":"1.0"}}}
+        return {"jsonrpc":"2.0","id":req["id"],"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{}},"serverInfo":{"name":"Gold","version":"1.0"}}}
     if m == "tools/list":
         return {"jsonrpc":"2.0","id":req["id"],"result":{"tools":[
             {"name":"store","description":"Store data","inputSchema":{"type":"object","properties":{"d":{"type":"string"}}}},
