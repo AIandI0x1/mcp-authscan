@@ -1297,7 +1297,7 @@ def _e_interpolates(args, var):
     # f-string / template-literal placeholders
     if re.search(r"(?<![{])\{" + v + r"(?:\[[^}\]]*\])?(?:![rsa])?(?::[^}]*)?\}|\$\{" + v + r"\}", args):
         return True
-    code = re.sub(r"""(['"`])(?:\\.|(?!\1).)*\1""", '""', args)  # drop string literals
+    code = re.sub(r"""(['"`])(?:\\.|(?!\1)[^\\])*\1""", '""', args)  # drop string literals
     return bool(re.search(
         r"(?:^|[,+%]\s*)" + v + r"\b(?!\s*[(.\[])|"
         r"\b(?:str|repr|json\.dumps|JSON\.stringify)\(\s*" + v + r"\b", code.strip()))
