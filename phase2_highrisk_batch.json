@@ -1,0 +1,6502 @@
+[
+  {
+    "name": "MCP",
+    "url": "https://modelcontextprotocol.io/",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Model Context Protocol (MCP) Quickstart",
+    "url": "https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GarphenGate/moltline-mcp",
+    "url": "https://github.com/GarphenGate/moltline-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "team886/findagent-mcp",
+    "url": "https://github.com/team886/findagent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "BotHireAgent/BotHireMCPServer",
+    "url": "https://github.com/BotHireAgent/BotHireMCPServer",
+    "source": "awesome-github"
+  },
+  {
+    "name": "@neoninnovationlab/neon-mcp-gateway",
+    "url": "https://github.com/neoninnovationlab/neon-mcp-gateway",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/coinopai-mcp",
+    "url": "https://github.com/forgemeshlabs/coinopai-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/anomaly-mcp",
+    "url": "https://github.com/forgemeshlabs/anomaly-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "1mcp/agent",
+    "url": "https://github.com/1mcp-app/agent",
+    "source": "awesome-github"
+  },
+  {
+    "name": "8randonpickart5/alderpost-mcp",
+    "url": "https://github.com/8randonpickart5/alderpost-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/utility-grid-mcp",
+    "url": "https://github.com/forgemeshlabs/utility-grid-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GTCC777/pulsenetwork-mcp",
+    "url": "https://github.com/GTCC777/pulsenetwork-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "minia2auk/minia2a-mcp",
+    "url": "https://github.com/minia2auk/minia2a-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tadas-github/a2asearch-mcp",
+    "url": "https://github.com/tadas-github/a2asearch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aidevelopers2/remoteopenclaw-mcp",
+    "url": "https://github.com/aidevelopers2/remoteopenclaw-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alexanderclapp/clirank-mcp-server",
+    "url": "https://github.com/alexanderclapp/clirank-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AIsa-public/AIsa-mcp-server",
+    "url": "https://github.com/AIsa-public/AIsa-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "reefapi/reefapi-mcp",
+    "url": "https://github.com/reefapi/reefapi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "arikusi/deepseek-mcp-server",
+    "url": "https://github.com/arikusi/deepseek-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ariekogan/ateam-mcp",
+    "url": "https://github.com/ariekogan/ateam-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "adw0rd/awesome-mcp-tools-mcp",
+    "url": "https://github.com/adw0rd/awesome-mcp-tools-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "avotsai/avots-mcp",
+    "url": "https://github.com/avotsai/avots-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "blockrunai/blockrun-mcp",
+    "url": "https://github.com/blockrunai/blockrun-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bridgenode-ai/bridgenode-mcp",
+    "url": "https://github.com/bridgenode-ai/bridgenode-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Continuum-AI-Corp/orcarouter-mcp-server",
+    "url": "https://github.com/Continuum-AI-Corp/orcarouter-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "entire-vc/evc-spark-mcp",
+    "url": "https://github.com/entire-vc/evc-spark-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Gliana-Labs/gliana-mcp",
+    "url": "https://github.com/Gliana-Labs/gliana-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hamflx/imagen3-mcp",
+    "url": "https://github.com/hamflx/imagen3-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hashgraph-online/hashnet-mcp-js",
+    "url": "https://github.com/hashgraph-online/hashnet-mcp-js",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hedging8563/tokenlab-mcp-server",
+    "url": "https://github.com/hedging8563/tokenlab-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HelpCode-ai/anythingmcp",
+    "url": "https://github.com/HelpCode-ai/anythingmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Jackalope-Dev/allmcps-server",
+    "url": "https://github.com/Jackalope-Dev/allmcps-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "K-Dense-AI/claude-skills-mcp",
+    "url": "https://github.com/K-Dense-AI/claude-skills-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kansei-link/kansei-mcp-server",
+    "url": "https://github.com/kansei-link/kansei-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kevmoz/macaroonnetwork-mcp",
+    "url": "https://github.com/kevmoz/macaroonnetwork-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Markgatcha/universal-mcp-toolkit",
+    "url": "https://github.com/Markgatcha/universal-mcp-toolkit",
+    "source": "awesome-github"
+  },
+  {
+    "name": "merterbak/Grok-MCP",
+    "url": "https://github.com/merterbak/Grok-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mirastacklabs-ai/mirastack-redfish-mcp",
+    "url": "https://github.com/mirastacklabs-ai/mirastack-redfish-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mroops0111/openapi-mcp-gateway",
+    "url": "https://github.com/mroops0111/openapi-mcp-gateway",
+    "source": "awesome-github"
+  },
+  {
+    "name": "particlefuture/MCPDiscovery",
+    "url": "https://github.com/particlefuture/1mcpserver",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sonnyflylock/voxie-ai-directory-mcp",
+    "url": "https://github.com/sonnyflylock/voxie-ai-directory-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SureScaleAI/openai-gpt-image-mcp",
+    "url": "https://github.com/SureScaleAI/openai-gpt-image-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "swaltersjrtest/microtap-mcp",
+    "url": "https://github.com/swaltersjrtest/microtap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VeriTeknik/pluggedin-mcp-proxy",
+    "url": "https://github.com/VeriTeknik/pluggedin-mcp-proxy",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wegotdocs/open-mcp",
+    "url": "https://github.com/wegotdocs/open-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rplryan/x402-discovery-mcp",
+    "url": "https://github.com/rplryan/x402-discovery-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "x402-index/x402search-mcp",
+    "url": "https://github.com/x402-index/x402search-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ikoskela/wisepanel-mcp",
+    "url": "https://github.com/ikoskela/wisepanel-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "YangLiangwei/PersonalizationMCP",
+    "url": "https://github.com/YangLiangwei/PersonalizationMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "skillselion/skillselion-mcp",
+    "url": "https://github.com/skillselion/skillselion-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "singhpratech/crimson-crab-mcp-template",
+    "url": "https://github.com/singhpratech/crimson-crab-mcp-template",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forcedreamai/forcedream-mcp",
+    "url": "https://github.com/forcedreamai/forcedream-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mcccsm/x402-list-mcp",
+    "url": "https://github.com/mcccsm/x402-list-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "viventine-space/orbit-sentinel-mcp",
+    "url": "https://github.com/viventine-space/orbit-sentinel-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "humanforai/humanforai-mcp",
+    "url": "https://github.com/humanforai/humanforai-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gofrantic/frantic-mcp",
+    "url": "https://github.com/gofrantic/frantic-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "t3ratech/market-pulse-mcp",
+    "url": "https://github.com/t3ratech/market-pulse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TheRealDalaiLama/glyphdna-mcp",
+    "url": "https://github.com/TheRealDalaiLama/glyphdna-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sttruji/mundane-mcp",
+    "url": "https://github.com/sttruji/mundane-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vince-gonzalez/opticquiz-mcp",
+    "url": "https://github.com/vince-gonzalez/opticquiz-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AceDataCloud/MCPFlux",
+    "url": "https://github.com/AceDataCloud/FluxMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "musajala/musajala-mcp",
+    "url": "https://github.com/musajala/musajala-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AceDataCloud/MCPSeedream",
+    "url": "https://github.com/AceDataCloud/SeedreamMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AIDataNordic/alexandria-mcp",
+    "url": "https://github.com/AIDataNordic/alexandria-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "fgbytes/sansfiction-mcp",
+    "url": "https://github.com/fgbytes/sansfiction-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "abhiemj/manim-mcp-server",
+    "url": "https://github.com/abhiemj/manim-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "austenstone/myinstants-mcp",
+    "url": "https://github.com/austenstone/myinstants-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ahujasid/blender-mcp",
+    "url": "https://github.com/ahujasid/blender-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "albertnahas/icogenie-mcp",
+    "url": "https://github.com/albertnahas/icogenie-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alexzavialov/travel-art-mcp",
+    "url": "https://github.com/alexzavialov/travel-art-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aliafsahnoudeh/shahnameh-mcp-server",
+    "url": "https://github.com/aliafsahnoudeh/shahnameh-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ArturLys/ao3-mcp",
+    "url": "https://github.com/ArturLys/ao3-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "asmith26/jupytercad-mcp",
+    "url": "https://github.com/asmith26/jupytercad-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "attalla1/photopea-mcp-server",
+    "url": "https://github.com/attalla1/photopea-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "krupalghori44-dev/infyicon-mcp",
+    "url": "https://github.com/krupalghori44-dev/infyicon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "quokkapix/quokkapix-mcp",
+    "url": "https://github.com/quokkapix/quokkapix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "BluesPrince/thiri-mcp",
+    "url": "https://github.com/BluesPrince/thiri-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "burningion/video-editing-mcp",
+    "url": "https://github.com/burningion/video-editing-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cantian-ai/bazi-mcp",
+    "url": "https://github.com/cantian-ai/bazi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cfpramod/open-museum-mcp",
+    "url": "https://github.com/cfpramod/open-museum-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/imagegen-mcp",
+    "url": "https://github.com/forgemeshlabs/imagegen-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "codex-curator/studiomcphub",
+    "url": "https://github.com/codex-curator/studiomcphub",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cswkim/discogs-mcp-server",
+    "url": "https://github.com/cswkim/discogs-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "DataCraftsmanAU/vineverse-mcp",
+    "url": "https://github.com/DataCraftsmanAU/vineverse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "diivi/aseprite-mcp",
+    "url": "https://github.com/diivi/aseprite-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "djalal/quran-mcp-server",
+    "url": "https://github.com/djalal/quran-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "drakonkat/wizzy-mcp-tmdb",
+    "url": "https://github.com/drakonkat/wizzy-mcp-tmdb",
+    "source": "awesome-github"
+  },
+  {
+    "name": "effectustasi/autodesk-inventor-mcp",
+    "url": "https://github.com/effectustasi/autodesk-inventor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "fatenava/fatenava-mcp",
+    "url": "https://github.com/fatenava/fatenava-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "flamexnreal/davinci-resolve-ai-bridge-mcp",
+    "url": "https://github.com/flamexnreal/davinci-resolve-ai-bridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Gatyh/3dtexel-mcp",
+    "url": "https://github.com/Gatyh/3dtexel-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gavxm/ani-mcp",
+    "url": "https://github.com/gavxm/ani-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gokimedia/tarot-mcp-server",
+    "url": "https://github.com/gokimedia/tarot-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gupta-kush/spotify-mcp",
+    "url": "https://github.com/gupta-kush/spotify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hanshs474/kavel-mcp",
+    "url": "https://github.com/hanshs474/kavel-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jau123/MeiGen-AI-Design-MCP",
+    "url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "j-east/pixel-surgeon-mcp",
+    "url": "https://github.com/j-east/pixel-surgeon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kenzolika/yandex-music-mcp",
+    "url": "https://github.com/kenzolika/yandex-music-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "khglynn/spotify-bulk-actions-mcp",
+    "url": "https://github.com/khglynn/spotify-bulk-actions-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "labelgrid/labelgrid-mcp",
+    "url": "https://github.com/labelgrid/labelgrid-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "leonardoca1/aesthetics-wiki-mcp",
+    "url": "https://github.com/leonardoca1/aesthetics-wiki-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "memebo-at/memeboat-mcp",
+    "url": "https://github.com/memebo-at/memeboat-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mikechao/metmuseum-mcp",
+    "url": "https://github.com/mikechao/metmuseum-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "molanojustin/smithsonian-mcp",
+    "url": "https://github.com/molanojustin/smithsonian-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "joshseane/-nmlp-mcp",
+    "url": "https://github.com/joshseane/-nmlp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/calibreweb-mcp",
+    "url": "https://github.com/ni-c/calibreweb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "omni-mcp/isaac-sim-mcp",
+    "url": "https://github.com/omni-mcp/isaac-sim-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Pantani/tdmcp",
+    "url": "https://github.com/Pantani/tdmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PatrickPalmer/MayaMCP",
+    "url": "https://github.com/PatrickPalmer/MayaMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pzfreo/build123d-mcp",
+    "url": "https://github.com/pzfreo/build123d-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Psalmustrack/lambdacad-mcp",
+    "url": "https://github.com/Psalmustrack/lambdacad-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "doctorm333/promptpilot-mcp-server",
+    "url": "https://github.com/doctorm333/promptpilot-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "r-huijts/oorlogsbronnen-mcp",
+    "url": "https://github.com/r-huijts/oorlogsbronnen-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "r-huijts/rijksmuseum-mcp",
+    "url": "https://github.com/r-huijts/rijksmuseum-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "raveenb/fal-mcp-server",
+    "url": "https://github.com/raveenb/fal-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rekordcloud/sonovault-mcp",
+    "url": "https://github.com/rekordcloud/sonovault-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rosasynthesiz/flstudio-mcp",
+    "url": "https://github.com/rosasynthesiz/flstudio-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "runcomfy-com/runcomfy-mcp",
+    "url": "https://github.com/runcomfy-com/runcomfy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "samuelgursky/davinci-resolve-mcp",
+    "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sharafutdinovdi/revit-model-mcp",
+    "url": "https://github.com/sharafutdinovdi/revit-model-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "shunshi-ai/bazi-reader-mcp",
+    "url": "https://github.com/shunshi-ai/bazi-reader-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "slshults/shakespeare-monologues-mcp",
+    "url": "https://github.com/slshults/shakespeare-monologues-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "speedwarnsf/scenef-mcp",
+    "url": "https://github.com/speedwarnsf/scenef-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TOBYCAI/image-mcp",
+    "url": "https://github.com/TOBYCAI/image-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TwelveTake-Studios/reaper-mcp",
+    "url": "https://github.com/TwelveTake-Studios/reaper-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "UModeler/picoberry-mcp",
+    "url": "https://github.com/UModeler/picoberry-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vicseeai/vicsee-mcp-server",
+    "url": "https://github.com/vicseeai/vicsee-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "XavierFabregat/spotify-mcp",
+    "url": "https://github.com/XavierFabregat/spotify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yonlandwu/chinese-almanac-mcp",
+    "url": "https://github.com/yonlandwu/chinese-almanac-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yuluo688/gen-image-mcp",
+    "url": "https://github.com/yuluo688/gen-image-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yuna0x0/anilist-mcp",
+    "url": "https://github.com/yuna0x0/anilist-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AETumiApp/aetumi-mcp",
+    "url": "https://github.com/AETumiApp/aetumi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aidc2026ai-melon/aidc-ai-mcp",
+    "url": "https://github.com/aidc2026ai-melon/aidc-ai-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ant-dev-lab/nightmarquee-mcp",
+    "url": "https://github.com/ant-dev-lab/nightmarquee-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "BV-Venky/excalidraw-architect-mcp",
+    "url": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Daksh-create349/Contradiction-MCP",
+    "url": "https://github.com/Daksh-create349/Contradiction-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ejwhite7/brandkit-mcp",
+    "url": "https://github.com/ejwhite7/brandkit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "erajasekar/ai-diagram-maker-mcp",
+    "url": "https://github.com/erajasekar/ai-diagram-maker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "flowzap-xyz/flowzap-mcp",
+    "url": "https://github.com/flowzap-xyz/flowzap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GittyBurstein/mermaid-mcp-server",
+    "url": "https://github.com/GittyBurstein/mermaid-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HalidSaglam/saglitzdesign-mcp",
+    "url": "https://github.com/HalidSaglam/saglitzdesign-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
+    "url": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "karyaboyraz/mockit-mcp",
+    "url": "https://github.com/karyaboyraz/mockit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "KasayoDotCom/identityforge-mcp",
+    "url": "https://github.com/KasayoDotCom/identityforge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Narasimhaponnada/mermaid-mcp",
+    "url": "https://github.com/Narasimhaponnada/mermaid-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "odd-Innocent/den_archi_mcp",
+    "url": "https://github.com/odd-Innocent/den_archi_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rdanieli/tentra-mcp",
+    "url": "https://github.com/rdanieli/tentra-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "RedHold/diagrams-mcp-app-core",
+    "url": "https://github.com/RedHold/diagrams-mcp-app-core",
+    "source": "awesome-github"
+  },
+  {
+    "name": "RNVizion/rnv-color-mcp",
+    "url": "https://github.com/RNVizion/rnv-color-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yenchieh/diagramzu-mcp",
+    "url": "https://github.com/yenchieh/diagramzu-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ajibadedapo/flowproof-mcp",
+    "url": "https://github.com/ajibadedapo/flowproof-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Crindo2/gph-mcp-server",
+    "url": "https://github.com/Crindo2/gph-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davidmosiah/google-health-mcp",
+    "url": "https://github.com/davidmosiah/google-health-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davidmosiah/wellness-cgm-mcp",
+    "url": "https://github.com/davidmosiah/wellness-cgm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dnaerys/onekgpd-mcp",
+    "url": "https://github.com/dnaerys/onekgpd-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ericblair1903/nutrients-mcp",
+    "url": "https://github.com/ericblair1903/nutrients-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forever-healthy/evipedia-mcp",
+    "url": "https://github.com/forever-healthy/evipedia-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "fulcradynamics/fulcra-context-mcp",
+    "url": "https://github.com/fulcradynamics/fulcra-context-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "genomoncology/biomcp",
+    "url": "https://github.com/genomoncology/biomcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "helena-bioinformatics/noodle-mcp",
+    "url": "https://github.com/helena-bioinformatics/noodle-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hlydecker/ucsc-genome-mcp",
+    "url": "https://github.com/hlydecker/ucsc-genome-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JamesANZ/medical-mcp",
+    "url": "https://github.com/JamesANZ/medical-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JaviMaligno/vitamind-mcp",
+    "url": "https://github.com/JaviMaligno/vitamind-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kushaim/practice-fusion-mcp",
+    "url": "https://github.com/kushaim/practice-fusion-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mgnirck/lecka-mcp",
+    "url": "https://github.com/mgnirck/lecka-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MyMedi-AI/mymedi-ai-mcp-server",
+    "url": "https://github.com/MyMedi-AI/mymedi-ai-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "NyxToolsDev/dicom-hl7-mcp-server",
+    "url": "https://github.com/NyxToolsDev/dicom-hl7-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "longevity-genie/biothings-mcp",
+    "url": "https://github.com/longevity-genie/biothings-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "longevity-genie/gget-mcp",
+    "url": "https://github.com/longevity-genie/gget-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "longevity-genie/opengenes-mcp",
+    "url": "https://github.com/longevity-genie/opengenes-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "longevity-genie/synergy-age-mcp",
+    "url": "https://github.com/longevity-genie/synergy-age-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "musharna/plant-genomics-mcp",
+    "url": "https://github.com/musharna/plant-genomics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "neptun2000/heor-agent-mcp",
+    "url": "https://github.com/neptun2000/heor-agent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "OHNLP/omop_mcp",
+    "url": "https://github.com/OHNLP/omop_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PantelisGeorgiadis/dicomweb-mcp-server",
+    "url": "https://github.com/PantelisGeorgiadis/dicomweb-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tatsuju/opdstar-nhi-mcp",
+    "url": "https://github.com/tatsuju/opdstar-nhi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pkotecha-eng/aria-mcp-server",
+    "url": "https://github.com/pkotecha-eng/aria-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Rajskij/oura-mcp",
+    "url": "https://github.com/Rajskij/oura-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rewire-bio/genomics-mcp",
+    "url": "https://github.com/rewire-bio/genomics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SidneyBissoli/medical-terminologies-mcp",
+    "url": "https://github.com/SidneyBissoli/medical-terminologies-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "smaniches/alphafold-sovereign-mcp",
+    "url": "https://github.com/smaniches/alphafold-sovereign-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "smaniches/uniprot-mcp",
+    "url": "https://github.com/smaniches/uniprot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "the-momentum/apple-health-mcp-server",
+    "url": "https://github.com/the-momentum/apple-health-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "the-momentum/fhir-mcp-server",
+    "url": "https://github.com/the-momentum/fhir-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "thehealthai/clarity-mcp",
+    "url": "https://github.com/thehealthai/clarity-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "thehealthai/fda-risk-radar-mcp",
+    "url": "https://github.com/thehealthai/fda-risk-radar-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "thelongevityvault/decoder-3am-mcp",
+    "url": "https://github.com/thelongevityvault/decoder-3am-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wso2/fhir-mcp-server",
+    "url": "https://github.com/wso2/fhir-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wjgoarxiv/pymol-mcp",
+    "url": "https://github.com/wjgoarxiv/pymol-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "34892002/bilibili-mcp-js",
+    "url": "https://github.com/34892002/bilibili-mcp-js",
+    "source": "awesome-github"
+  },
+  {
+    "name": "achiya-automation/safari-mcp",
+    "url": "https://github.com/achiya-automation/safari-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aethynio/aethyn-browser-mcp",
+    "url": "https://github.com/aethynio/aethyn-browser-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Agent360dk/browser-mcp",
+    "url": "https://github.com/Agent360dk/browser-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "andresolbach/nodriver-mcp-server",
+    "url": "https://github.com/andresolbach/nodriver-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aparajithn/agent-scraper-mcp",
+    "url": "https://github.com/aparajithn/agent-scraper-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "auspy/supasidebar-mcp",
+    "url": "https://github.com/auspy/supasidebar-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bch1212/agentfetch-mcp",
+    "url": "https://github.com/bch1212/agentfetch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bighippoman/intercept-mcp",
+    "url": "https://github.com/bighippoman/intercept-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "blackwhite084/playwright-plus-python-mcp",
+    "url": "https://github.com/blackwhite084/playwright-plus-python-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "browserless/browserless-mcp",
+    "url": "https://github.com/browserless/browserless-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "brutalzinn/simple-mcp-selenium",
+    "url": "https://github.com/brutalzinn/simple-mcp-selenium",
+    "source": "awesome-github"
+  },
+  {
+    "name": "co-browser/browser-use-mcp-server",
+    "url": "https://github.com/co-browser/browser-use-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "corbinvachal48/agentrender-mcp",
+    "url": "https://github.com/corbinvachal48/agentrender-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "corralimited/snapdiff-mcp",
+    "url": "https://github.com/corralimited/snapdiff-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Custodia-Admin/pagebolt-mcp",
+    "url": "https://github.com/Custodia-Admin/pagebolt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "eyalzh/browser-control-mcp",
+    "url": "https://github.com/eyalzh/browser-control-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "firecrawl/firecrawl-mcp-server",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "freema/firefox-devtools-mcp",
+    "url": "https://github.com/freema/firefox-devtools-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "segentic-lab/periscope-mcp",
+    "url": "https://github.com/segentic-lab/periscope-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sh6drack/zen-mcp",
+    "url": "https://github.com/sh6drack/zen-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hanzili/comet-mcp",
+    "url": "https://github.com/hanzili/comet-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hunglp97/tabpilot-mcp",
+    "url": "https://github.com/hunglp97/tabpilot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "markmircea/Selenix-MCP-Server",
+    "url": "https://github.com/markmircea/Selenix-MCP-Server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "samson-art/transcriptor-mcp",
+    "url": "https://github.com/samson-art/transcriptor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lyrenth/lyrenth-mcp",
+    "url": "https://github.com/lyrenth/lyrenth-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MathiasPaulenko/wavexis-mcp",
+    "url": "https://github.com/MathiasPaulenko/wavexis-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "microsoft/playwright-mcp",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nnemirovsky/iwdp-mcp",
+    "url": "https://github.com/nnemirovsky/iwdp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "olostep/olostep-mcp-server",
+    "url": "https://github.com/olostep/olostep-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ofershap/real-browser-mcp",
+    "url": "https://github.com/ofershap/real-browser-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Pantheon-Security/chrome-mcp-secure",
+    "url": "https://github.com/Pantheon-Security/chrome-mcp-secure",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PhungXuanAnh/selenium-mcp-server",
+    "url": "https://github.com/PhungXuanAnh/selenium-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "paipaipai666/nexus-browser-mcp",
+    "url": "https://github.com/paipaipai666/nexus-browser-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "prufa-dev/prufa-mcp",
+    "url": "https://github.com/prufa-dev/prufa-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "RapierCraft/alterlab-mcp-server",
+    "url": "https://github.com/RapierCraft/alterlab-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "reeinharddd/snapmcp",
+    "url": "https://github.com/reeinharddd/snapmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ScrapeUnblocker/scrapeunblocker-mcp",
+    "url": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "screenshotscout/screenshotscout-mcp",
+    "url": "https://github.com/screenshotscout/screenshotscout-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "seleniumboot/selenium-mcp",
+    "url": "https://github.com/seleniumboot/selenium-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "site-shot/site-shot-mcp",
+    "url": "https://github.com/site-shot/site-shot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "snapshot-site/snapshot-site-mcp",
+    "url": "https://github.com/snapshot-site/snapshot-site-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SolveGate/solvegate-mcp",
+    "url": "https://github.com/SolveGate/solvegate-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "swimmwatch/cloakbrowser-mcp",
+    "url": "https://github.com/swimmwatch/cloakbrowser-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "copperline-labs/rendex-mcp",
+    "url": "https://github.com/copperline-labs/rendex-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "xspadex/bilibili-mcp",
+    "url": "https://github.com/xspadex/bilibili-mcp.git",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ymw0407/auth-fetch-mcp",
+    "url": "https://github.com/ymw0407/auth-fetch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PrinceGabriel-lgtm/freshcontext-mcp",
+    "url": "https://github.com/PrinceGabriel-lgtm/freshcontext-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zzzjy765/ottersnap-mcp",
+    "url": "https://github.com/zzzjy765/ottersnap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "CapMonsterCloud/capmonster-mcp-captcha-solver",
+    "url": "https://github.com/CapMonsterCloud/capmonster-mcp-captcha-solver",
+    "source": "awesome-github"
+  },
+  {
+    "name": "4everland/4everland-hosting-mcp",
+    "url": "https://github.com/4everland/4everland-hosting-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AkaciaNL/basicdeploy-mcp",
+    "url": "https://github.com/AkaciaNL/basicdeploy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Focus-GTS/eds-mcp-server",
+    "url": "https://github.com/Focus-GTS/eds-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aparajithn/agent-deploy-dashboard-mcp",
+    "url": "https://github.com/aparajithn/agent-deploy-dashboard-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alexpota/cloudscope-mcp",
+    "url": "https://github.com/alexpota/cloudscope-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Albaker-Group/cloudprice-mcp",
+    "url": "https://github.com/Albaker-Group/cloudprice-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AliKarami/MikroMCP",
+    "url": "https://github.com/AliKarami/MikroMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aliyun/alibaba-cloud-ops-mcp-server",
+    "url": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "backblaze-labs/b2-mcp",
+    "url": "https://github.com/backblaze-labs/b2-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "BlazingCDN/BlazingCDN-MCP",
+    "url": "https://github.com/BlazingCDN/BlazingCDN-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bright8192/esxi-mcp-server",
+    "url": "https://github.com/bright8192/esxi-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chaandannn/finopsmcp",
+    "url": "https://github.com/chaandannn/finopsmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davidlandais/ovh-api-mcp",
+    "url": "https://github.com/davidlandais/ovh-api-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "elevy99927/devops-mcp-webui",
+    "url": "https://github.com/elevy99927/devops-mcp-webui",
+    "source": "awesome-github"
+  },
+  {
+    "name": "erikhoward/adls-mcp-server",
+    "url": "https://github.com/erikhoward/adls-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "espressif/esp-rainmaker-mcp",
+    "url": "https://github.com/espressif/esp-rainmaker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "friendlygeorge/docker-mcp-server",
+    "url": "https://github.com/friendlygeorge/docker-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "frndchagas/coolify-mcp",
+    "url": "https://github.com/frndchagas/coolify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "garlicKim21/ratatosk-mcp",
+    "url": "https://github.com/garlicKim21/ratatosk-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GeiserX/spinnaker-mcp",
+    "url": "https://github.com/GeiserX/spinnaker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hardik-id/azure-resource-graph-mcp-server",
+    "url": "https://github.com/hardik-id/azure-resource-graph-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hashicorp/terraform-mcp-server",
+    "url": "https://github.com/hashicorp/terraform-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "helbertparanhos/cloudflare-mcp-pro",
+    "url": "https://github.com/helbertparanhos/cloudflare-mcp-pro",
+    "source": "awesome-github"
+  },
+  {
+    "name": "helbertparanhos/easypanel-mcp-server",
+    "url": "https://github.com/helbertparanhos/easypanel-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hostodo/hostodo-mcp",
+    "url": "https://github.com/hostodo/hostodo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "huangdun/tempmd-mcp",
+    "url": "https://github.com/huangdun/tempmd-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ionos-cloud/ionoscloud-mcp",
+    "url": "https://github.com/ionos-cloud/ionoscloud-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jasonwilbur/cloud-cost-mcp",
+    "url": "https://github.com/jasonwilbur/cloud-cost-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jasonwilbur/oci-pricing-mcp",
+    "url": "https://github.com/jasonwilbur/oci-pricing-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "johnneerdael/netskope-mcp",
+    "url": "https://github.com/johnneerdael/netskope-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "shiped-app/shiped-mcp",
+    "url": "https://github.com/shiped-app/shiped-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "L337-org/docker-mcp",
+    "url": "https://github.com/L337-org/docker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Labs64/NetLicensing-MCP",
+    "url": "https://github.com/Labs64/NetLicensing-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "joachimBrindeau/domain-mcp",
+    "url": "https://github.com/joachimBrindeau/domain-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "liveblocks/liveblocks-mcp-server",
+    "url": "https://github.com/liveblocks/liveblocks-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lizard-build/lizard-mcp",
+    "url": "https://github.com/lizard-build/lizard-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "localstack/localstack-mcp-server",
+    "url": "https://github.com/localstack/localstack-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "M-Yamashita01/cloudflare-mcp-go",
+    "url": "https://github.com/M-Yamashita01/cloudflare-mcp-go",
+    "source": "awesome-github"
+  },
+  {
+    "name": "manusa/Kubernetes MCP Server",
+    "url": "https://github.com/manusa/kubernetes-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mikusnuz/dynadot-mcp",
+    "url": "https://github.com/mikusnuz/dynadot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mctlhq/mctl-mcp",
+    "url": "https://github.com/mctlhq/mctl-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Mogacode-ma/infomaniak-mcp-agent",
+    "url": "https://github.com/Mogacode-ma/infomaniak-mcp-agent",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mrostamii/rancher-mcp-server",
+    "url": "https://github.com/mrostamii/rancher-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Nebula-Block-Data/nebulablock-mcp-server",
+    "url": "https://github.com/Nebula-Block-Data/nebulablock-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/hetzner-dns-mcp",
+    "url": "https://github.com/ni-c/hetzner-dns-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nitin27may/ms-graph-mcp",
+    "url": "https://github.com/nitin27may/ms-graph-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/wg-easy-mcp",
+    "url": "https://github.com/ni-c/wg-easy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nwiizo/tfmcp",
+    "url": "https://github.com/nwiizo/tfmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "oborseth/Porkbun-MCP",
+    "url": "https://github.com/oborseth/Porkbun-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "openstack-kr/python-openstackmcp-server",
+    "url": "https://github.com/openstack-kr/python-openstackmcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pibblokto/cert-manager-mcp-server",
+    "url": "https://github.com/pibblokto/cert-manager-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "plopino/plopino-mcp",
+    "url": "https://github.com/plopino/plopino-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Poiuyhje/eqvps-mcp",
+    "url": "https://github.com/Poiuyhje/eqvps-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "portainer/portainer-mcp",
+    "url": "https://github.com/portainer/portainer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "CodesWhat/portkey-admin-mcp",
+    "url": "https://github.com/CodesWhat/portkey-admin-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pythonanywhere/pythonanywhere-mcp-server",
+    "url": "https://github.com/pythonanywhere/pythonanywhere-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "qiniu/qiniu-mcp-server",
+    "url": "https://github.com/qiniu/qiniu-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "reza-gholizade/k8s-mcp-server",
+    "url": "https://github.com/reza-gholizade/k8s-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rohitg00/kubectl-mcp-server",
+    "url": "https://github.com/rohitg00/kubectl-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rosenvladimirov/odoo-claude-mcp",
+    "url": "https://github.com/rosenvladimirov/odoo-claude-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "roybogs/portveil-mcp",
+    "url": "https://github.com/roybogs/portveil-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rrmistry/tilt-mcp",
+    "url": "https://github.com/rrmistry/tilt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "shdomi8599/vibie-mcp",
+    "url": "https://github.com/shdomi8599/vibie-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "trackerfitness729-jpg/sitelauncher-mcp-server",
+    "url": "https://github.com/trackerfitness729-jpg/sitelauncher-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Spaceship MCP",
+    "url": "https://github.com/bartwaardenburg/spaceship-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "spre-sre/lumino-mcp-server",
+    "url": "https://github.com/spre-sre/lumino-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "StacklokLabs/ocireg-mcp",
+    "url": "https://github.com/StacklokLabs/ocireg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "stevejford/shiply-mcp",
+    "url": "https://github.com/stevejford/shiply-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "stevysmith/stacktree-mcp",
+    "url": "https://github.com/stevysmith/stacktree-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "trilogy-group/aws-pricing-mcp",
+    "url": "https://github.com/trilogy-group/aws-pricing-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VmLia/books-mcp-server",
+    "url": "https://github.com/VmLia/books-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "akkireddy-challa/k8s-mcp-server",
+    "url": "https://github.com/akkireddy-challa/k8s-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Woobox/hatchable-mcp",
+    "url": "https://github.com/Woobox/hatchable-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "x7even/cloudcostsmcp",
+    "url": "https://github.com/x7even/cloudcostsmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "xns-cloud/relayer-mcp",
+    "url": "https://github.com/xns-cloud/relayer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zyli5313/dochost-mcp",
+    "url": "https://github.com/zyli5313/dochost-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alfonsograziano/node-code-sandbox-mcp",
+    "url": "https://github.com/alfonsograziano/node-code-sandbox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alvii147/piston-mcp",
+    "url": "https://github.com/alvii147/piston-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "asif-nvc/e2b-sandbox-mcp",
+    "url": "https://github.com/asif-nvc/e2b-sandbox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ckanthony/openapi-mcp",
+    "url": "https://github.com/ckanthony/openapi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "fstandhartinger/sandbox-as-a-service-mcp",
+    "url": "https://github.com/fstandhartinger/sandbox-as-a-service-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gwbischof/outsource-mcp",
+    "url": "https://github.com/gwbischof/outsource-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HanSur94/matlab-mcp-server-python",
+    "url": "https://github.com/HanSur94/matlab-mcp-server-python",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ouvreboite/openapi-to-mcp",
+    "url": "https://github.com/ouvreboite/openapi-to-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Reachpad/reachpad-mcp",
+    "url": "https://github.com/Reachpad/reachpad-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SebastianGilPinzon/colab-mcp",
+    "url": "https://github.com/SebastianGilPinzon/colab-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "5dive-ai/5dive-mcp",
+    "url": "https://github.com/5dive-ai/5dive-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "agentic-mcp-tools/owlex",
+    "url": "https://github.com/agentic-mcp-tools/owlex",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alpadalar/netops-mcp",
+    "url": "https://github.com/alpadalar/netops-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aresyn/codex-control-plane-mcp",
+    "url": "https://github.com/aresyn/codex-control-plane-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "automateyournetwork/pyATS_MCP",
+    "url": "https://github.com/automateyournetwork/pyATS_MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "blakerouse/ssh-mcp",
+    "url": "https://github.com/blakerouse/ssh-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "andreilungeanu/cursor-delegate-mcp",
+    "url": "https://github.com/andreilungeanu/cursor-delegate-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "eirikb/any-cli-mcp-server",
+    "url": "https://github.com/eirikb/any-cli-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ejentum/ejentum-mcp",
+    "url": "https://github.com/ejentum/ejentum-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ezyang/codemcp",
+    "url": "https://github.com/ezyang/codemcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "freema/openclaw-mcp",
+    "url": "https://github.com/freema/openclaw-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Get-Concord-AI/concord-mcp",
+    "url": "https://github.com/Get-Concord-AI/concord-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ferrislucas/iterm-mcp",
+    "url": "https://github.com/ferrislucas/iterm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hampsterx/claude-mcp-bridge",
+    "url": "https://github.com/hampsterx/claude-mcp-bridge",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jinzcdev/leetcode-mcp-server",
+    "url": "https://github.com/jinzcdev/leetcode-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "juehang/vscode-mcp-server",
+    "url": "https://github.com/juehang/vscode-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "louis030195/terminator-mcp-agent",
+    "url": "https://github.com/mediar-ai/terminator/tree/main/crates/terminator-mcp-agent",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Luckycat133/traecnclaw-mcp-skill",
+    "url": "https://github.com/Luckycat133/traecnclaw-mcp-skill",
+    "source": "awesome-github"
+  },
+  {
+    "name": "misiektoja/kill-process-mcp",
+    "url": "https://github.com/misiektoja/kill-process-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "myelixlabs/synapse-mcp",
+    "url": "https://github.com/myelixlabs/synapse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MladenSU/cli-mcp-server",
+    "url": "https://github.com/MladenSU/cli-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nihalxkumar/arch-mcp",
+    "url": "https://github.com/nihalxkumar/arch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "OthmaneBlial/term_mcp_deepseek",
+    "url": "https://github.com/OthmaneBlial/term_mcp_deepseek",
+    "source": "awesome-github"
+  },
+  {
+    "name": "djerok/glm-mcp",
+    "url": "https://github.com/djerok/glm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "religa/multi-mcp",
+    "url": "https://github.com/religa/multi_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rinadelph/Agent-MCP",
+    "url": "https://github.com/rinadelph/Agent-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sena-labs/oz-mcp-server",
+    "url": "https://github.com/sena-labs/OzBridge",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tiianhk/MaxMSP-MCP-Server",
+    "url": "https://github.com/tiianhk/MaxMSP-MCP-Server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tufantunc/ssh-mcp",
+    "url": "https://github.com/tufantunc/ssh-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VibeKit-Bot/vibekit-mcp",
+    "url": "https://github.com/VibeKit-Bot/vibekit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VoDaiLocz/kilo-kit-mcp",
+    "url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "x51xxx/codex-mcp-tool",
+    "url": "https://github.com/x51xxx/codex-mcp-tool",
+    "source": "awesome-github"
+  },
+  {
+    "name": "x51xxx/copilot-mcp-server",
+    "url": "https://github.com/x51xxx/copilot-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "eliottreich/taskbounty-mcp-server",
+    "url": "https://github.com/eliottreich/taskbounty-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cygnussystems/cygnus-ssh-mcp",
+    "url": "https://github.com/cygnussystems/cygnus-ssh-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hypnosis/ssh-mcp-server",
+    "url": "https://github.com/hypnosis/ssh-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nvms/tui-mcp",
+    "url": "https://github.com/nvms/tui-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "raychao-oao/pty-mcp",
+    "url": "https://github.com/raychao-oao/pty-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "LukeLamb/claude-terminal-mcp",
+    "url": "https://github.com/LukeLamb/claude-terminal-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HasanJahidul/terminal-history-mcp",
+    "url": "https://github.com/HasanJahidul/terminal-history-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HasanJahidul/localhost-mcp",
+    "url": "https://github.com/HasanJahidul/localhost-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Easton-OU/rootpilot-mcp",
+    "url": "https://github.com/Easton-OU/rootpilot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AbdelStark/nostr-mcp",
+    "url": "https://github.com/AbdelStark/nostr-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "agentmail-to/agentmail-mcp",
+    "url": "https://github.com/agentmail-to/agentmail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "arbengine/mailbox-mcp",
+    "url": "https://github.com/arbengine/mailbox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AutomateLab-tech/content-distribution-mcp",
+    "url": "https://github.com/AutomateLab-tech/content-distribution-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "areweai/tsgram-mcp",
+    "url": "https://github.com/areweai/tsgram-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "carterlasalle/mac_messages_mcp",
+    "url": "https://github.com/carterlasalle/mac_messages_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chaindead/telegram-mcp",
+    "url": "https://github.com/chaindead/telegram-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chigwell/telegram-mcp",
+    "url": "https://github.com/chigwell/telegram-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Choppaaahh/sendgrid-mcp-secure",
+    "url": "https://github.com/Choppaaahh/sendgrid-mcp-secure",
+    "source": "awesome-github"
+  },
+  {
+    "name": "clawaimail/mcp",
+    "url": "https://github.com/joansongjr/clawaimail",
+    "source": "awesome-github"
+  },
+  {
+    "name": "codefuturist/email-mcp",
+    "url": "https://github.com/codefuturist/email-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cometchat/docs-mcp",
+    "url": "https://github.com/cometchat/docs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "conarti/mattermost-mcp",
+    "url": "https://github.com/conarti/mattermost-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Danielpeter-99/calcom-mcp",
+    "url": "https://github.com/Danielpeter-99/calcom-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "desek/outlook-local-mcp",
+    "url": "https://github.com/desek/outlook-local-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dialgoodian/clawdcall-mcp",
+    "url": "https://github.com/dialgoodian/clawdcall-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "discourse/discourse-mcp",
+    "url": "https://github.com/discourse/discourse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ExpertVagabond/solmail-mcp",
+    "url": "https://github.com/ExpertVagabond/solmail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FantomaSkaRus1/telegram-bot-mcp",
+    "url": "https://github.com/FantomaSkaRus1/telegram-bot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "farukkolip/instapdown-mcp",
+    "url": "https://github.com/farukkolip/instapdown-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "farukkolip/xtapdown-mcp",
+    "url": "https://github.com/farukkolip/xtapdown-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "fbossiere/proton-safe-mcp",
+    "url": "https://github.com/fbossiere/proton-safe-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gambot-ai/gambot-mcp",
+    "url": "https://github.com/gambot-ai/gambot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gerkensm/callcenter.js-mcp",
+    "url": "https://github.com/gerkensm/callcenter.js-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GeiserX/telegram-archive-mcp",
+    "url": "https://github.com/GeiserX/telegram-archive-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "giggal-ai/giggal-mcp",
+    "url": "https://github.com/giggal-ai/giggal-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gitmotion/ntfy-me-mcp",
+    "url": "https://github.com/gitmotion/ntfy-me-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "googlarz/signal-mcp",
+    "url": "https://github.com/googlarz/signal-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hannesrudolph/imessage-query-fastmcp-mcp-server",
+    "url": "https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "helbertparanhos/resend-email-mcp",
+    "url": "https://github.com/helbertparanhos/resend-email-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ictinnovations/ictpbx-mcp",
+    "url": "https://github.com/ictinnovations/ictpbx-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ictinnovations/pbx-mcp",
+    "url": "https://github.com/ictinnovations/pbx-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ictinnovations/ictbroadcast-mcp",
+    "url": "https://github.com/ictinnovations/ictbroadcast-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "iletimerkezi/iletimerkezi-mcp-server",
+    "url": "https://github.com/iletimerkezi/iletimerkezi-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "imdinu/apple-mail-mcp",
+    "url": "https://github.com/imdinu/apple-mail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "markmnl/fmsg-mcp",
+    "url": "https://github.com/markmnl/fmsg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jcoulaud/shipmail-mcp",
+    "url": "https://github.com/jcoulaud/shipmail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "parasxos/apple-mail-mcp",
+    "url": "https://github.com/parasxos/apple-mail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sethbang/proton-mail-mcp",
+    "url": "https://github.com/sethbang/proton-mail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "shahabazdev/inxmail-mcp",
+    "url": "https://github.com/shahabazdev/inxmail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TheSameAbramovych/qmailing-mcp-server",
+    "url": "https://github.com/TheSameAbramovych/qmailing-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "radmail-ai/radmail-mcp",
+    "url": "https://github.com/radmail-ai/radmail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rchanllc/joltsms-mcp-server",
+    "url": "https://github.com/rchanllc/joltsms-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Rheopyrin/ox-mcp",
+    "url": "https://github.com/Rheopyrin/ox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jagan-shanmugam/mattermost-mcp-host",
+    "url": "https://github.com/jagan-shanmugam/mattermost-mcp-host",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jaipandya/producthunt-mcp-server",
+    "url": "https://github.com/jaipandya/producthunt-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jamalofski/mailprobe-mcp",
+    "url": "https://github.com/jamalofski/mailprobe-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jtalk22/slack-mcp-server",
+    "url": "https://github.com/jtalk22/slack-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JulienRabault/icloud-mcp",
+    "url": "https://github.com/JulienRabault/icloud-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "khan2a/telephony-mcp-server",
+    "url": "https://github.com/khan2a/telephony-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kojott/mailmcp-dist",
+    "url": "https://github.com/kojott/mailmcp-dist",
+    "source": "awesome-github"
+  },
+  {
+    "name": "korotovsky/slack-mcp-server",
+    "url": "https://github.com/korotovsky/slack-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lanchuske/local-mcp",
+    "url": "https://github.com/lanchuske/local-mcp-releases",
+    "source": "awesome-github"
+  },
+  {
+    "name": "leshchenko1979/fast-mcp-telegram",
+    "url": "https://github.com/leshchenko1979/fast-mcp-telegram",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lharries/whatsapp-mcp",
+    "url": "https://github.com/lharries/whatsapp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "LimzoCom/limzo-mcp",
+    "url": "https://github.com/LimzoCom/limzo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nakulben/whatsapp-mcp",
+    "url": "https://github.com/nakulben/whatsapp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "line/line-bot-mcp-server",
+    "url": "https://github.com/line/line-bot-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Leximo-AI/leximo-ai-call-assistant-mcp-server",
+    "url": "https://github.com/Leximo-AI/leximo-ai-call-assistant-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ma2no4413/outlook-mcp",
+    "url": "https://github.com/ma2no4413/outlook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "madbonez/caldav-mcp",
+    "url": "https://github.com/madbonez/caldav-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MankhongGarden/line-bot-ops-mcp",
+    "url": "https://github.com/MankhongGarden/line-bot-ops-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "marlinjai/email-mcp",
+    "url": "https://github.com/marlinjai/email-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Metaverse-Cloud/engagelab-email-mcp",
+    "url": "https://github.com/Metaverse-Cloud/engagelab-email-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/carddav-mcp",
+    "url": "https://github.com/ni-c/carddav-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/caldav-mcp",
+    "url": "https://github.com/ni-c/caldav-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aeoess/mingle-mcp",
+    "url": "https://github.com/aeoess/mingle-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mouse114514/Xadeus-QQ-MCP",
+    "url": "https://github.com/mouse114514/Xadeus-QQ-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MrGo2/icloud-mcp",
+    "url": "https://github.com/MrGo2/icloud-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/smtp-mcp",
+    "url": "https://github.com/ni-c/smtp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/ntfy-mcp",
+    "url": "https://github.com/ni-c/ntfy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "OverQuotaAI/chatterboxio-mcp-server",
+    "url": "https://github.com/OverQuotaAI/chatterboxio-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PhilflowIO/dav-mcp",
+    "url": "https://github.com/PhilflowIO/dav-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PhononX/cv-mcp-server",
+    "url": "https://github.com/PhononX/cv-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Py2755/aiogram-mcp",
+    "url": "https://github.com/Py2755/aiogram-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "qq418716640/botbell-mcp",
+    "url": "https://github.com/qq418716640/botbell-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sawa-zen/vrchat-mcp",
+    "url": "https://github.com/sawa-zen/vrchat-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "serhiizghama/viber-mcp",
+    "url": "https://github.com/serhiizghama/viber-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SirGreed808/zoho-mail-mcp",
+    "url": "https://github.com/SirGreed808/zoho-mail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "softeria/ms-365-mcp-server",
+    "url": "https://github.com/softeria/ms-365-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sounny/sounnyforms-mcp",
+    "url": "https://github.com/sounny/sounnyforms-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Spix-HQ/spix-mcp",
+    "url": "https://github.com/Spix-HQ/spix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tecnologicachile/mail-mcp",
+    "url": "https://github.com/tecnologicachile/mail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "teddyzxcv/ntfy-mcp",
+    "url": "https://github.com/teddyzxcv/ntfy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "textbee/textbee-mcp",
+    "url": "https://github.com/textbee/textbee-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "userad/didlogic_mcp",
+    "url": "https://github.com/UserAd/didlogic_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vaemail/vaemail-mcp",
+    "url": "https://github.com/vaemail/vaemail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wyattjoh/imessage-mcp",
+    "url": "https://github.com/wyattjoh/imessage-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wyattjoh/jmap-mcp",
+    "url": "https://github.com/wyattjoh/jmap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "webtoolbox/websitetoolbox-mcp",
+    "url": "https://github.com/webtoolbox/websitetoolbox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wildsurfer/your-mail-mcp",
+    "url": "https://github.com/wildsurfer/your-mail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "windborne/zulipmcp",
+    "url": "https://github.com/windborne/zulipmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zcaceres/gtasks-mcp",
+    "url": "https://github.com/zcaceres/gtasks-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ztxtxwd/open-feishu-mcp-server",
+    "url": "https://github.com/ztxtxwd/open-feishu-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "loglux/whatsapp-mcp-stream",
+    "url": "https://github.com/loglux/whatsapp-mcp-stream",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Zacccck/Claude-MCP-Read-Email-Attachments",
+    "url": "https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zerodrop-dev/zerodrop-mcp",
+    "url": "https://github.com/zerodrop-dev/zerodrop-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "starnikovoleg/tgatlas-mcp",
+    "url": "https://github.com/starnikovoleg/tgatlas-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TsvetanG2/cognigy-ai-mcp-management-server",
+    "url": "https://github.com/TsvetanG2/cognigy-ai-mcp-management-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bodyegypt/lobbyvoices-mcp",
+    "url": "https://github.com/bodyegypt/lobbyvoices-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "puspoaditya/cloudflare-workers-ai-mcp",
+    "url": "https://github.com/puspoaditya/cloudflare-workers-ai-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "guillaumehussong/standard-vocal-mcp",
+    "url": "https://github.com/guillaumehussong/standard-vocal-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "denismaggior8/enigma-python-mcp",
+    "url": "https://github.com/denismaggior8/enigma-python-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Aleksey-Panf/b2b-enrichment-mcp",
+    "url": "https://github.com/Aleksey-Panf/b2b-enrichment-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "anpekesen/namegender-mcp",
+    "url": "https://github.com/anpekesen/namegender-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "azmartone67/dchub-mcp-server",
+    "url": "https://github.com/azmartone67/dchub-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ckalima/pipedrive-mcp-server",
+    "url": "https://github.com/ckalima/pipedrive-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "echoloc-ai/echoloc-mcp",
+    "url": "https://github.com/echoloc-ai/echoloc-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ictinnovations/ictcrm-mcp",
+    "url": "https://github.com/ictinnovations/ictcrm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "OpenDataMCP/OpenDataMCP",
+    "url": "https://github.com/OpenDataMCP/OpenDataMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "penmadebykisss/bitrix24-mcp",
+    "url": "https://github.com/penmadebykisss/bitrix24-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sergehuber/inoyu-mcp-unomi-server",
+    "url": "https://github.com/sergehuber/inoyu-mcp-unomi-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "skippedaga/yanifend-mcp",
+    "url": "https://github.com/skippedaga/yanifend-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lionkiii/google-searchconsole-mcp",
+    "url": "https://github.com/lionkiii/google-searchconsole-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "saurabhsharma2u/search-console-mcp",
+    "url": "https://github.com/saurabhsharma2u/search-console-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alexanderzuev/supabase-mcp-server",
+    "url": "https://github.com/alexander-zuev/supabase-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aliyun/alibabacloud-tablestore-mcp-server",
+    "url": "https://github.com/aliyun/alibabacloud-tablestore-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "andyWang1688/sql-query-mcp",
+    "url": "https://github.com/andyWang1688/sql-query-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ChristianHinge/dicom-mcp",
+    "url": "https://github.com/ChristianHinge/dicom-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chroma-core/chroma-mcp",
+    "url": "https://github.com/chroma-core/chroma-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "corebasehq/coremcp",
+    "url": "https://github.com/corebasehq/coremcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cr7258/elasticsearch-mcp-server",
+    "url": "https://github.com/cr7258/elasticsearch-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "crystaldba/postgres-mcp",
+    "url": "https://github.com/crystaldba/postgres-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davewind/mysql-mcp-server",
+    "url": "https://github.com/dave-wind/mysql-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "designcomputer/mysql_mcp_server",
+    "url": "https://github.com/designcomputer/mysql_mcp_server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "domdomegg/airtable-mcp-server",
+    "url": "https://github.com/domdomegg/airtable-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "edwinbernadus/nocodb-mcp-server",
+    "url": "https://github.com/edwinbernadus/nocodb-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Eszetael/postgres-mcp-hardened",
+    "url": "https://github.com/Eszetael/postgres-mcp-hardened",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ferrants/memvid-mcp-server",
+    "url": "https://github.com/ferrants/memvid-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Michael2150/flamerobin-mcp-server",
+    "url": "https://github.com/Michael2150/flamerobin-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FreePeak/db-mcp-server",
+    "url": "https://github.com/FreePeak/db-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gannonh/firebase-mcp",
+    "url": "https://github.com/gannonh/firebase-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GreptimeTeam/greptimedb-mcp-server",
+    "url": "https://github.com/GreptimeTeam/greptimedb-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+    "url": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "henilcalagiya/google-sheets-mcp",
+    "url": "https://github.com/henilcalagiya/google-sheets-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "idoru/influxdb-mcp-server",
+    "url": "https://github.com/idoru/influxdb-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "infino-ai/infino-mcp",
+    "url": "https://github.com/infino-ai/infino-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "InfluxData/influxdb3_mcp_server",
+    "url": "https://github.com/influxdata/influxdb3_mcp_server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "igorolv/jdbc-mcp-server",
+    "url": "https://github.com/igorolv/jdbc-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "izzzzzi/izTolkMcp",
+    "url": "https://github.com/izzzzzi/izTolkMcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "iunera/druid-mcp-server",
+    "url": "https://github.com/iunera/druid-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Janadasroor/pg-mnemosyne-mcp",
+    "url": "https://github.com/Janadasroor/pg-mnemosyne-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JaviMaligno/postgres_mcp",
+    "url": "https://github.com/JaviMaligno/postgres_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "joshuarileydev/supabase-mcp-server",
+    "url": "https://github.com/joshuarileydev/supabase",
+    "source": "awesome-github"
+  },
+  {
+    "name": "KashiwaByte/vikingdb-mcp-server",
+    "url": "https://github.com/KashiwaByte/vikingdb-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kosminus/querywise-mcp",
+    "url": "https://github.com/kosminus/querywise-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lintbase/lintbase-mcp",
+    "url": "https://github.com/lintbase/lintbase",
+    "source": "awesome-github"
+  },
+  {
+    "name": "montumodi/mongodb-atlas-mcp-server",
+    "url": "https://github.com/montumodi/mongodb-atlas-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "niledatabase/nile-mcp-server",
+    "url": "https://github.com/niledatabase/nile-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pab1it0/adx-mcp-server",
+    "url": "https://github.com/pab1it0/adx-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pab1it0/prometheus-mcp-server",
+    "url": "https://github.com/pab1it0/prometheus-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pgtuner_mcp",
+    "url": "https://github.com/isdaniel/pgtuner_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "planetscale/mcp",
+    "url": "https://github.com/planetscale/cli?tab=readme-ov-file#mcp-server-integration",
+    "source": "awesome-github"
+  },
+  {
+    "name": "QuantGeekDev/mongo-mcp",
+    "url": "https://github.com/QuantGeekDev/mongo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "quarkiverse/mcp-server-jdbc",
+    "url": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbc",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rashidazarang/airtable-mcp",
+    "url": "https://github.com/rashidazarang/airtable-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "scoretracker4321/json-mcp-lite",
+    "url": "https://github.com/scoretracker4321/json-mcp-lite",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Yusufihsangorgel/queue-inspector-mcp",
+    "url": "https://github.com/Yusufihsangorgel/queue-inspector-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Rheopyrin/db-access-mcp",
+    "url": "https://github.com/Rheopyrin/db-access-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Rufflet/mysql-legacy-mcp",
+    "url": "https://github.com/Rufflet/mysql-legacy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "narekmalk/safedb-mcp",
+    "url": "https://github.com/narekmalk/safedb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "schemacrawler/SchemaCrawler-MCP-Server-Usage",
+    "url": "https://github.com/schemacrawler/SchemaCrawler-MCP-Server-Usage",
+    "source": "awesome-github"
+  },
+  {
+    "name": "seedfast-ai/seedfast-mcp",
+    "url": "https://github.com/seedfast-ai/seedfast-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "seob717/redash-mcp",
+    "url": "https://github.com/seob717/redash-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SidneyBissoli/ibge-br-mcp",
+    "url": "https://github.com/SidneyBissoli/ibge-br-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "skysqlinc/skysql-mcp",
+    "url": "https://github.com/skysqlinc/skysql-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sqemo/sqemo-mcp",
+    "url": "https://github.com/sqemo/sqemo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "subnetmarco/pgmcp",
+    "url": "https://github.com/subnetmarco/pgmcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "supabase-community/supabase-mcp",
+    "url": "https://github.com/supabase-community/supabase-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TheRaLabs/legion-mcp",
+    "url": "https://github.com/TheRaLabs/legion-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tradercjz/dolphindb-mcp-server",
+    "url": "https://github.com/tradercjz/dolphindb-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ugurcl/dbridge-mcp",
+    "url": "https://github.com/ugurcl/dbridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GetMystAdmin/urdb-mcp",
+    "url": "https://github.com/GetMystAdmin/urdb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wenb1n-dev/mysql_mcp_server_pro",
+    "url": "https://github.com/wenb1n-dev/mysql_mcp_server_pro",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wenb1n-dev/SmartDB_MCP",
+    "url": "https://github.com/wenb1n-dev/SmartDB_MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wenerme/wener-mssql-mcp",
+    "url": "https://github.com/wenerme/wode/tree/develop/packages/wener-mssql-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "XGenerationLab/xiyan_mcp_server",
+    "url": "https://github.com/XGenerationLab/xiyan_mcp_server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yannbrrd/simple_snowflake_mcp",
+    "url": "https://github.com/YannBrrd/simple_snowflake_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ydb/ydb-mcp",
+    "url": "https://github.com/ydb-platform/ydb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yincongcyincong/VictoriaMetrics-mcp-server",
+    "url": "https://github.com/yincongcyincong/VictoriaMetrics-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rafim-dev/schema-bridge-mcp",
+    "url": "https://github.com/rafim-dev/schema-bridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Zhwt/go-mcp-mysql",
+    "url": "https://github.com/Zhwt/go-mcp-mysql",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wklee610/kafka-mcp",
+    "url": "https://github.com/wklee610/kafka-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "1luvc0d3/metabase-mcp",
+    "url": "https://github.com/1luvc0d3/metabase-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alanpcf/brasil-data-mcp",
+    "url": "https://github.com/alanpcf/brasil-data-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Alessandro114/scala-mcp-server",
+    "url": "https://github.com/Alessandro114/scala-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sam1siam/astrofabric-mcp",
+    "url": "https://github.com/sam1siam/astrofabric-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "carrierone/verilexdata-mcp",
+    "url": "https://github.com/carrierone/verilexdata-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "equinoxaifinance-rgb/civicdataforge-mcp",
+    "url": "https://github.com/equinoxaifinance-rgb/civicdataforge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alkemiai/alkemi-mcp",
+    "url": "https://github.com/alkemi-ai/alkemi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Autario/autario-mcp",
+    "url": "https://github.com/Autario/autario-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vinvuk/apiverket-mcp",
+    "url": "https://github.com/vinvuk/apiverket-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "avisangle/method-crm-mcp",
+    "url": "https://github.com/avisangle/method-crm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aywengo/kafka-schema-reg-mcp",
+    "url": "https://github.com/aywengo/kafka-schema-reg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bruno-portfolio/agrobr-mcp",
+    "url": "https://github.com/bruno-portfolio/agrobr-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dan1d/mercadolibre-mcp",
+    "url": "https://github.com/dan1d/mercadolibre-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dbt-labs/dbt-mcp",
+    "url": "https://github.com/dbt-labs/dbt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Evan-Crx/permisapi-mcp",
+    "url": "https://github.com/Evan-Crx/permisapi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "flexorch/flexorch-mcp",
+    "url": "https://github.com/flexorch/flexorch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FreelexHo/power-bi-mcp",
+    "url": "https://github.com/FreelexHo/power-bi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "greencalculus/greencalculus-mcp",
+    "url": "https://github.com/greencalculus/greencalculus-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jwaxman19/qlik-mcp",
+    "url": "https://github.com/jwaxman19/qlik-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "keboola/keboola-mcp-server",
+    "url": "https://github.com/keboola/keboola-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mattijsdp/dbt-docs-mcp",
+    "url": "https://github.com/mattijsdp/dbt-docs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mbrummerstedt/powerbi-analyst-mcp",
+    "url": "https://github.com/mbrummerstedt/powerbi-analyst-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Osseni94/keyneg-mcp",
+    "url": "https://github.com/Osseni94/keyneg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Osseni94/oyemi-mcp",
+    "url": "https://github.com/Osseni94/oyemi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "paracetamol951/caisse-enregistreuse-mcp-server",
+    "url": "https://github.com/paracetamol951/caisse-enregistreuse-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "saikiyusuke/registep-mcp",
+    "url": "https://github.com/saikiyusuke/registep-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "us-all/airflow-mcp-server",
+    "url": "https://github.com/us-all/airflow-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "soil-dev/capsulemcp",
+    "url": "https://github.com/soil-dev/capsulemcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Sugra-Systems/sugra-api-mcp",
+    "url": "https://github.com/Sugra-Systems/sugra-api-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yashshingvi/databricks-genie-MCP",
+    "url": "https://github.com/yashshingvi/databricks-genie-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Leekangbum/networklytics-mcp",
+    "url": "https://github.com/Leekangbum/networklytics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ieranama/discomcp",
+    "url": "https://github.com/ieranama/discomcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ARADIA-systems/aradia-mcp-server",
+    "url": "https://github.com/ARADIA-systems/aradia-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/aso-score-mcp",
+    "url": "https://github.com/forgemeshlabs/aso-score-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hivemindunit/llmintel-mcp",
+    "url": "https://github.com/hivemindunit/llmintel-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rm-rf-prod/GroundTruth-MCP",
+    "url": "https://github.com/rm-rf-prod/GroundTruth-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hernaninverso/eleata-verify-mcp",
+    "url": "https://github.com/hernaninverso/eleata-verify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "appcreationsca/bumpguard-mcp",
+    "url": "https://github.com/appcreationsca/bumpguard-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SLP-DEV1/qwen-dap-mcp",
+    "url": "https://github.com/SLP-DEV1/qwen-dap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VerificateAI/verificate-mcp-quickstart",
+    "url": "https://github.com/VerificateAI/verificate-mcp-quickstart",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davidmosiah/delx-mcp-server",
+    "url": "https://github.com/davidmosiah/delx-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "docweave/mcp",
+    "url": "https://github.com/NicolasMartalog/docweave-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dynatrace-oss/dynatrace-managed-mcp",
+    "url": "https://github.com/dynatrace-oss/dynatrace-managed-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "embedded-society/altium-designer-mcp",
+    "url": "https://github.com/embedded-society/altium-designer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/aso-audit-mcp",
+    "url": "https://github.com/forgemeshlabs/aso-audit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "minipuft/claude-prompts-mcp",
+    "url": "https://github.com/minipuft/claude-prompts-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "modus-agendi/managed-agent-control-mcp",
+    "url": "https://github.com/modus-agendi/managed-agent-control-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "getnahook/nahook-mcp",
+    "url": "https://github.com/getnahook/nahook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tatavarthitarun/nowsecure-mcp-server",
+    "url": "https://github.com/tatavarthitarun/nowsecure-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Stellify-Software-Ltd/stellify-mcp",
+    "url": "https://github.com/Stellify-Software-Ltd/stellify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alexbypa/github-projectpulse-mcp",
+    "url": "https://github.com/alexbypa/github-projectpulse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kestiny18/spring-nacos-mcp",
+    "url": "https://github.com/kestiny18/spring-nacos-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mithun4elp/briefkit-mcp-server",
+    "url": "https://github.com/mithun4elp/briefkit-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "magna-nz/aspnetcore-debugger-mcp",
+    "url": "https://github.com/magna-nz/aspnetcore-debugger-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "3KniGHtcZ/codebeamer-mcp",
+    "url": "https://github.com/3KniGHtcZ/codebeamer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "21st-dev/Magic-MCP",
+    "url": "https://github.com/21st-dev/magic-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mvtandas/wp-cli-mcp",
+    "url": "https://github.com/mvtandas/wp-cli-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Mogacode-ma/elementor-mcp-agent",
+    "url": "https://github.com/Mogacode-ma/elementor-mcp-agent",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nipun-arora/wordpress-mcp-agent-bridge",
+    "url": "https://github.com/nipun-arora/wordpress-mcp-agent-bridge",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tcgunel/mobius-mcp",
+    "url": "https://github.com/tcgunel/mobius-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "a-25/ios-mcp-code-quality-server",
+    "url": "https://github.com/a-25/ios-mcp-code-quality-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FI-Mihej/codebase-agent-mcp",
+    "url": "https://github.com/FI-Mihej/codebase-agent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AgiMaulana/HuaweiAppGalleryMcp",
+    "url": "https://github.com/AgiMaulana/HuaweiAppGalleryMcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aparajithn/agent-utils-mcp",
+    "url": "https://github.com/aparajithn/agent-utils-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GeiserX/atlassian-browser-mcp",
+    "url": "https://github.com/GeiserX/atlassian-browser-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "abrinsmead/mindpilot-mcp",
+    "url": "https://github.com/abrinsmead/mindpilot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "admica/FileScopeMCP",
+    "url": "https://github.com/admica/FileScopeMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mikusnuz/app-publish-mcp",
+    "url": "https://github.com/mikusnuz/app-publish-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mikusnuz/cws-mcp",
+    "url": "https://github.com/mikusnuz/cws-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mikusnuz/npm-mcp",
+    "url": "https://github.com/mikusnuz/npm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Wopee-io/wopee-mcp",
+    "url": "https://github.com/Wopee-io/wopee-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wooxogh/adr-mcp-setup",
+    "url": "https://github.com/wooxogh/adr-mcp-setup",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aidemd-mcp/server",
+    "url": "https://github.com/aidemd-mcp/server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ellmos-ai/ellmos-codecommander-mcp",
+    "url": "https://github.com/ellmos-ai/ellmos-codecommander-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ethbak/icon-composer-mcp",
+    "url": "https://github.com/ethbak/icon-composer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Explorer-64/imagcon-mcp",
+    "url": "https://github.com/Explorer-64/imagcon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aktsmm/skill-ninja-mcp-server",
+    "url": "https://github.com/aktsmm/skill-ninja-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alimo7amed93/webhook-tester-mcp",
+    "url": "https://github.com/alimo7amed93/webhook-tester-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ambar/simctl-mcp",
+    "url": "https://github.com/ambar/simctl-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "andrewschreiber/desktopinsights-mcp",
+    "url": "https://github.com/andrewschreiber/desktopinsights-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "andypgray/resharper-cli-mcp",
+    "url": "https://github.com/andypgray/resharper-cli-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "api7/apisix-mcp",
+    "url": "https://github.com/api7/apisix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ArchAI-Labs/fastmcp-sonarqube-metrics",
+    "url": "https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics",
+    "source": "awesome-github"
+  },
+  {
+    "name": "artmann/package-registry-mcp",
+    "url": "https://github.com/artmann/package-registry-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "arvindand/maven-tools-mcp",
+    "url": "https://github.com/arvindand/maven-tools-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "augmnt/augments-mcp-server",
+    "url": "https://github.com/augmnt/augments-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "avisangle/jenkins-mcp-server",
+    "url": "https://github.com/avisangle/jenkins-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ayhammouda/python-docs-mcp-server",
+    "url": "https://github.com/ayhammouda/python-docs-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "azer/react-analyzer-mcp",
+    "url": "https://github.com/azer/react-analyzer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bbonnin/openapi-to-mcp",
+    "url": "https://github.com/bbonnin/openapi-to-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bgauryy/octocode-mcp",
+    "url": "https://github.com/bgauryy/octocode-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bitrise-io/bitrise-mcp",
+    "url": "https://github.com/bitrise-io/bitrise-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "BrunoKrugel/echo-mcp",
+    "url": "https://github.com/BrunoKrugel/echo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "buildkite/buildkite-mcp-server",
+    "url": "https://github.com/buildkite/buildkite-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "canopy-labs/featureflip-mcp",
+    "url": "https://github.com/canopy-labs/featureflip-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Chunkydotdev/bldbl-mcp",
+    "url": "https://github.com/chunkydotdev/bldbl-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ckanthony/gin-mcp",
+    "url": "https://github.com/ckanthony/gin-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ClaudeCodeNavi/claudecodenavi-mcp",
+    "url": "https://github.com/saikiyusuke/claudecodenavi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cocaxcode/api-testing-mcp",
+    "url": "https://github.com/cocaxcode/api-testing-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "CodeLogicIncEngineering/codelogic-mcp-server",
+    "url": "https://github.com/CodeLogicIncEngineering/codelogic-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Comet-ML/Opik-MCP",
+    "url": "https://github.com/comet-ml/opik-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "conan-io/conan-mcp",
+    "url": "https://github.com/conan-io/conan-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cqfn/aibolit-mcp-server",
+    "url": "https://github.com/cqfn/aibolit-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "currents-dev/currents-mcp",
+    "url": "https://github.com/currents-dev/currents-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Daghis/teamcity-mcp",
+    "url": "https://github.com/Daghis/teamcity-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "darktw/chatpipe-mcp",
+    "url": "https://github.com/darktw/chatpipe-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davidan90/time-node-mcp",
+    "url": "https://github.com/davidan90/time-node-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "davidlin2k/pox-mcp-server",
+    "url": "https://github.com/davidlin2k/pox-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "delano/postman-mcp-server",
+    "url": "https://github.com/delano/postman-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "deploy-mcp/deploy-mcp",
+    "url": "https://github.com/alexpota/deploy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "docker/hub-mcp",
+    "url": "https://github.com/docker/hub-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "efremidze/swift-patterns-mcp",
+    "url": "https://github.com/efremidze/swift-patterns-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "endiagram/mcp",
+    "url": "https://github.com/dushyant30suthar/endiagram-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "engineerdeep/buildtree-mcp",
+    "url": "https://github.com/engineerdeep/buildtree-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ericbrown/project-context-mcp",
+    "url": "https://github.com/ericbrown/project-context-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "eyaushev/swagger-testcase-mcp",
+    "url": "https://github.com/eyaushev/swagger-testcase-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ForeverTools/kiprio-mcp",
+    "url": "https://github.com/ForeverTools/kiprio-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GeiserX/lynxprompt-mcp",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GLips/Figma-Context-MCP",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gofireflyio/firefly-mcp",
+    "url": "https://github.com/gofireflyio/firefly-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gorosun/unified-diff-mcp",
+    "url": "https://github.com/gorosun/unified-diff-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gridhra/port-keeper-mcp",
+    "url": "https://github.com/gridhra/port-keeper-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Govcraft/rust-docs-mcp-server",
+    "url": "https://github.com/Govcraft/rust-docs-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "h-kazuki-pixel/layout-doctor-mcp",
+    "url": "https://github.com/h-kazuki-pixel/layout-doctor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "haris-musa/excel-mcp-server",
+    "url": "https://github.com/haris-musa/excel-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hechtcarmel/jetbrains-debugger-mcp-plugin",
+    "url": "https://github.com/hechtcarmel/jetbrains-debugger-mcp-plugin",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hechtcarmel/jetbrains-index-mcp-plugin",
+    "url": "https://github.com/hechtcarmel/jetbrains-index-mcp-plugin",
+    "source": "awesome-github"
+  },
+  {
+    "name": "higress-group/higress-ops-mcp-server",
+    "url": "https://github.com/higress-group/higress-ops-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Muhammed-AbdelGhany/rest_api_mcp",
+    "url": "https://github.com/Muhammed-AbdelGhany/rest_api_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hoklims/stacksfinder-mcp",
+    "url": "https://github.com/hoklims/stacksfinder-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hungthai1401/bruno-mcp",
+    "url": "https://github.com/hungthai1401/bruno-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "idosal/git-mcp",
+    "url": "https://github.com/idosal/git-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "igorolv/sonar-mcp-server",
+    "url": "https://github.com/igorolv/sonar-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "iksnerd/adb-mcp",
+    "url": "https://github.com/iksnerd/adb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Adityaaery20/media-mcp",
+    "url": "https://github.com/Adityaaery20/media-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "InsForge/insforge-mcp",
+    "url": "https://github.com/InsForge/insforge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "io.github.hoainho/podium-mcp",
+    "url": "https://github.com/hoainho/podium-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ios-simulator-mcp",
+    "url": "https://github.com/joshuayoes/ios-simulator-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "IvanAmador/vercel-ai-docs-mcp",
+    "url": "https://github.com/IvanAmador/vercel-ai-docs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "izzzzzi/codewiki-mcp",
+    "url": "https://github.com/izzzzzi/codewiki-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jaggernaut007/Nexus-MCP",
+    "url": "https://github.com/jaggernaut007/Nexus-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Jambozx/onlinecybertools-mcp-server",
+    "url": "https://github.com/Jambozx/onlinecybertools-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JamesANZ/system-prompts-mcp-server",
+    "url": "https://github.com/JamesANZ/system-prompts-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "janreges/ai-distiller-mcp",
+    "url": "https://github.com/janreges/ai-distiller",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jawdat6/fixgraph-mcp",
+    "url": "https://github.com/jawdat6/fixgraph-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jmshinhwa/readystack-mcp",
+    "url": "https://github.com/jmshinhwa/readystack-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jordandalton/restcsv-mcp-server",
+    "url": "https://github.com/JordanDalton/RestCsvMcpServer",
+    "source": "awesome-github"
+  },
+  {
+    "name": "joshuarileydev/simulator-mcp-server",
+    "url": "https://github.com/JoshuaRileyDev/simulator-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Jpisnice/shadcn-ui-mcp-server",
+    "url": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jsdelivr/globalping-mcp-server",
+    "url": "https://github.com/jsdelivr/globalping-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Kapeli/dash-mcp-server",
+    "url": "https://github.com/Kapeli/dash-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kenneives/design-token-bridge-mcp",
+    "url": "https://github.com/kenneives/design-token-bridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kevinswint/xcode-studio-mcp",
+    "url": "https://github.com/kevinswint/xcode-studio-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kirich1409/maven-mcp",
+    "url": "https://github.com/kirich1409/maven-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kyisaiah47/compound-mcp",
+    "url": "https://github.com/kyisaiah47/compound-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MarcelRoozekrans/roslyn-codelens-mcp",
+    "url": "https://github.com/MarcelRoozekrans/roslyn-codelens-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "linuxsuren/atest-mcp-server",
+    "url": "https://github.com/LinuxSuRen/atest-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "linw1995/nvim-mcp",
+    "url": "https://github.com/linw1995/nvim-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "logisky/logisheets-mcp",
+    "url": "https://github.com/logisky/logisheets-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lorenzo-cambiaghi/LynxMCP",
+    "url": "https://github.com/lorenzo-cambiaghi/LynxMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "louis030195/gptzero-mcp",
+    "url": "https://github.com/louis030195/gptzero-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lpigeon/ros-mcp-server",
+    "url": "https://github.com/lpigeon/ros-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lpigeon/unitree-go2-mcp-server",
+    "url": "https://github.com/lpigeon/unitree-go2-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "LumabyteCo/clarifyprompt-mcp",
+    "url": "https://github.com/LumabyteCo/clarifyprompt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "madhan-g-p/DevDocs-MCP",
+    "url": "https://github.com/madhan-g-p/DevDocs-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "impossiblecode/overseer-nvim-mcp",
+    "url": "https://github.com/impossiblecode/overseer-nvim-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "paulburgess1357/nvim-mcp",
+    "url": "https://github.com/paulburgess1357/nvim-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MarcelRoozekrans/memorylens-mcp",
+    "url": "https://github.com/MarcelRoozekrans/memorylens-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "martingeidobler/android-mcp-server",
+    "url": "https://github.com/martingeidobler/android-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mattjegan/swarmia-mcp",
+    "url": "https://github.com/mattjegan/swarmia-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "meanands/npm-package-docs-mcp",
+    "url": "https://github.com/meanands/npm-package-docs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mhmzdev/Figma-Flutter-MCP",
+    "url": "https://github.com/mhmzdev/Figma-Flutter-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mmorris35/devplan-mcp-server",
+    "url": "https://github.com/mmorris35/devplan-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mobile-next/mobile-mcp",
+    "url": "https://github.com/mobile-next/mobile-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "saranshbamania/mobile-device-mcp",
+    "url": "https://github.com/saranshbamania/mobile-device-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mockherodev/mcp-server",
+    "url": "https://github.com/dinosaur24/mockhero",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mrexodia/user-feedback-mcp",
+    "url": "https://github.com/mrexodia/user-feedback-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "muhannad-hash/git-context-mcp",
+    "url": "https://github.com/muhannad-hash/git-context-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mumez/pharo-smalltalk-interop-mcp-server",
+    "url": "https://github.com/mumez/pharo-smalltalk-interop-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "n8daniels/RulesetMCP",
+    "url": "https://github.com/n8daniels/RulesetMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AutomateLab-tech/n8n-mcp",
+    "url": "https://github.com/AutomateLab-tech/n8n-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "narumiruna/gitingest-mcp",
+    "url": "https://github.com/narumiruna/gitingest-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Neem2004/android-mcp-server",
+    "url": "https://github.com/Neem2004/android-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "neilberkman/editorconfig_mcp",
+    "url": "https://github.com/neilberkman/editorconfig_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Neo1228/spring-boot-starter-swagger-mcp",
+    "url": "https://github.com/Neo1228/spring-boot-starter-swagger-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/woodpecker-ci-mcp",
+    "url": "https://github.com/ni-c/woodpecker-ci-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nikolai-vysotskyi/trace-mcp",
+    "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Odrin/rhizome-mcp",
+    "url": "https://github.com/Odrin/rhizome-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ooples/token-optimizer-mcp",
+    "url": "https://github.com/ooples/token-optimizer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "optimaquantum/claude-critical-rules-mcp",
+    "url": "https://github.com/optimaquantum/claude-critical-rules-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "paladini/devutils-mcp-server",
+    "url": "https://github.com/paladini/devutils-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "paracetamol951/P-Link-MCP",
+    "url": "https://github.com/paracetamol951/P-Link-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pofky/asc-mcp",
+    "url": "https://github.com/pofky/asc-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "soulware-studio/promethic-mcp",
+    "url": "https://github.com/soulware-studio/promethic-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pylonapi/pylon-mcp",
+    "url": "https://github.com/pylonapi/pylon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Pratyay/mac-monitor-mcp",
+    "url": "https://github.com/Pratyay/mac-monitor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "promptexecution/just-mcp",
+    "url": "https://github.com/promptexecution/just-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PSU3D0/spreadsheet-mcp",
+    "url": "https://github.com/PSU3D0/spreadsheet-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pzalutski-pixel/javalens-mcp",
+    "url": "https://github.com/pzalutski-pixel/javalens-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pzalutski-pixel/godotlens-mcp",
+    "url": "https://github.com/pzalutski-pixel/godotlens-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pzalutski-pixel/sharplens-mcp",
+    "url": "https://github.com/pzalutski-pixel/sharplens-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "qainsights/jmeter-mcp-server",
+    "url": "https://github.com/QAInsights/jmeter-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "qainsights/k6-mcp-server",
+    "url": "https://github.com/QAInsights/k6-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "qainsights/locust-mcp-server",
+    "url": "https://github.com/QAInsights/locust-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "QuantGeekDev/docker-mcp",
+    "url": "https://github.com/QuantGeekDev/docker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "r-huijts/xcode-mcp-server",
+    "url": "https://github.com/r-huijts/xcode-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rabdulsal/appstore-release-mcp",
+    "url": "https://github.com/rabdulsal/appstore-release-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "reflagcom/mcp",
+    "url": "https://github.com/reflagcom/javascript/tree/main/packages/cli#model-context-protocol",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Rootly-AI-Labs/Rootly-MCP-server",
+    "url": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ronantakizawa/a11ymcp",
+    "url": "https://github.com/ronantakizawa/a11ymcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ryan0204/github-repo-mcp",
+    "url": "https://github.com/Ryan0204/github-repo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sequa-ai/sequa-mcp",
+    "url": "https://github.com/sequa-ai/sequa-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SimplyLiz/CodeMCP",
+    "url": "https://github.com/SimplyLiz/CodeMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "snaggle-ai/openapi-mcp-server",
+    "url": "https://github.com/snaggle-ai/openapi-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "specshield26/specshield-mcp-server",
+    "url": "https://github.com/specshield26/specshield-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "st3v3nmw/sourcerer-mcp",
+    "url": "https://github.com/st3v3nmw/sourcerer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "stass/lldb-mcp",
+    "url": "https://github.com/stass/lldb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TamarEngel/jira-github-mcp",
+    "url": "https://github.com/TamarEngel/jira-github-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tao-izm/devpulse-mcp",
+    "url": "https://github.com/tao-izm/devpulse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TCSoftInc/testcollab-mcp-server",
+    "url": "https://github.com/TCSoftInc/testcollab-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TKMD/ReftrixMCP",
+    "url": "https://github.com/TKMD/ReftrixMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TencentEdgeOne/edgeone-pages-mcp",
+    "url": "https://github.com/TencentEdgeOne/edgeone-pages-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "testdino-hq/testdino-mcp",
+    "url": "https://github.com/testdino-hq/testdino-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tgeselle/bugsnag-mcp",
+    "url": "https://github.com/tgeselle/bugsnag-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "thecombatwombat/replicant-mcp",
+    "url": "https://github.com/thecombatwombat/replicant-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "themesberg/flowbite-mcp",
+    "url": "https://github.com/themesberg/flowbite-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tipdotmd/tip-md-x402-mcp-server",
+    "url": "https://github.com/tipdotmd/tip-md-x402-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "x402node/x402-mcp",
+    "url": "https://github.com/x402node/x402-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Tommertom/awesome-ionic-mcp",
+    "url": "https://github.com/Tommertom/awesome-ionic-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "V0v1kkk/DotNetMetadataMcpServer",
+    "url": "https://github.com/V0v1kkk/DotNetMetadataMcpServer",
+    "source": "awesome-github"
+  },
+  {
+    "name": "valado/pantheon-mcp",
+    "url": "https://github.com/valado/pantheon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vercel/next-devtools-mcp",
+    "url": "https://github.com/vercel/next-devtools-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "verifyax/verifyax-mcp",
+    "url": "https://github.com/verifyax/verifyax-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VikrantSingh01/adaptive-cards-mcp",
+    "url": "https://github.com/VikrantSingh01/adaptive-cards-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VOYAGER-Inc/excel-vision-mcp",
+    "url": "https://github.com/VOYAGER-Inc/excel-vision-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VrtxOmega/omega-brain-mcp",
+    "url": "https://github.com/VrtxOmega/omega-brain-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Wolfe-Jam/claude-faf-mcp",
+    "url": "https://github.com/Wolfe-Jam/claude-faf-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Wolfe-Jam/faf-mcp",
+    "url": "https://github.com/Wolfe-Jam/faf-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Wooonster/hocr_mcp_server",
+    "url": "https://github.com/Wooonster/hocr_mcp_server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wyattjoh/jsr-mcp",
+    "url": "https://github.com/wyattjoh/jsr-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "XixianLiang/HarmonyOS-mcp-server",
+    "url": "https://github.com/XixianLiang/HarmonyOS-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "xzq.xu/jvm-mcp-server",
+    "url": "https://github.com/xzq-xu/jvm-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yanmxa/scriptflow-mcp",
+    "url": "https://github.com/yanmxa/scriptflow-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yikakia/godoc-mcp-server",
+    "url": "https://github.com/yikakia/godoc-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "YuChenSSR/mindmap-mcp-server",
+    "url": "https://github.com/YuChenSSR/mindmap-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "YuliiaKovalova/dotnet-template-mcp",
+    "url": "https://github.com/YuliiaKovalova/dotnet-template-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Yutarop/ros-mcp",
+    "url": "https://github.com/Yutarop/ros-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zcaceres/fetch-mcp",
+    "url": "https://github.com/zcaceres/fetch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zelentsov-dev/asc-mcp",
+    "url": "https://github.com/zelentsov-dev/asc-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ztuskes/garmin-documentation-mcp-server",
+    "url": "https://github.com/ztuskes/garmin-documentation-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "DigiCatalyst-Systems/dep-diff-mcp",
+    "url": "https://github.com/DigiCatalyst-Systems/dep-diff-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tooluse-labs/perfetto-mcp-rs",
+    "url": "https://github.com/tooluse-labs/perfetto-mcp-rs",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mshegolev/jaeger-mcp",
+    "url": "https://github.com/mshegolev/jaeger-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ysalitrynskyi/opn-mcp",
+    "url": "https://github.com/ysalitrynskyi/opn-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ozers/hooksense-mcp",
+    "url": "https://github.com/ozers/hooksense-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Eltortilla1/synapse-code-mcp",
+    "url": "https://github.com/Eltortilla1/synapse-code-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SunrisesIllNeverSee/sigrank-mcp",
+    "url": "https://github.com/SunrisesIllNeverSee/sigrank-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Bishop81/imagedimensions-mcp",
+    "url": "https://github.com/Bishop81/imagedimensions-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chrassy/klanex-mcp",
+    "url": "https://github.com/chrassy/klanex-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PackkitLabs/packkit-mcp",
+    "url": "https://github.com/PackkitLabs/packkit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MGM-FALCON/quelllm-mcp",
+    "url": "https://github.com/MGM-FALCON/quelllm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "WCAG-Compliance/wcagc-mcp",
+    "url": "https://github.com/WCAG-Compliance/wcagc-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "shakaran/symfony-agent-mcp",
+    "url": "https://github.com/shakaran/symfony-agent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ms-methos/jsonfabrica-mcp-server",
+    "url": "https://github.com/ms-methos/jsonfabrica-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "servelink-swyftlabs/serve-mcp",
+    "url": "https://github.com/servelink-swyftlabs/serve-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gba3124/anyhook-mcp",
+    "url": "https://github.com/gba3124/anyhook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "WilliamSmithEdward/xlide_mcp",
+    "url": "https://github.com/WilliamSmithEdward/xlide_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ni-c/opengist-mcp",
+    "url": "https://github.com/ni-c/opengist-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jordandalton/doordash-mcp-server",
+    "url": "https://github.com/JordanDalton/DoorDash-MCP-Server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "arthurpanhku/DragonMCP",
+    "url": "https://github.com/arthurpanhku/DragonMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "catrinmdonnelly/royalmail-mcp",
+    "url": "https://github.com/catrinmdonnelly/royalmail-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "iafanasov/packzoo-mcp",
+    "url": "https://github.com/IAfanasov/packzoo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "smklog/parcel-shipping-rates-mcp",
+    "url": "https://github.com/smklog/parcel-shipping-rates-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "warpfreight/warp-agent-mcp",
+    "url": "https://github.com/warpfreight/warp-agent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Dudude-bit/yandex-lavka-mcp",
+    "url": "https://github.com/Dudude-bit/yandex-lavka-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "todah-zg/codemagic-mcp",
+    "url": "https://github.com/todah-zg/codemagic-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "deslay1/amendor-mcp",
+    "url": "https://github.com/deslay1/amendor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "getproxykit/proxykit-mcp",
+    "url": "https://github.com/getproxykit/proxykit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "inity13/decisionmatrix-mcp",
+    "url": "https://github.com/inity13/decisionmatrix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "abhiphile/fermat-mcp",
+    "url": "https://github.com/abhiphile/fermat-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "agmonetti/mathmethods-mcp",
+    "url": "https://github.com/agmonetti/mathmethods-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "arrismo/kaggle-mcp",
+    "url": "https://github.com/arrismo/kaggle-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bradleylab/stella-mcp",
+    "url": "https://github.com/bradleylab/stella-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Bright-L01/networkx-mcp-server",
+    "url": "https://github.com/Bright-L01/networkx-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chohyerinn/filter-mcp-server",
+    "url": "https://github.com/chohyerinn/filter-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ChronulusAI/chronulus-mcp",
+    "url": "https://github.com/ChronulusAI/chronulus-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "clouatre-labs/math-mcp-learning-server",
+    "url": "https://github.com/clouatre-labs/math-mcp-learning-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Daichi-Kudo/llm-advisor-mcp",
+    "url": "https://github.com/Daichi-Kudo/llm-advisor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "datalayer/jupyter-mcp-server",
+    "url": "https://github.com/datalayer/jupyter-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "growthbook/growthbook-mcp",
+    "url": "https://github.com/growthbook/growthbook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "haiiibin/data-profiler-mcp",
+    "url": "https://github.com/haiiibin/data-profiler-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "headlessherm-creator/polymath-megablaster-mcp",
+    "url": "https://github.com/headlessherm-creator/polymath-megablaster-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HumanSignal/label-studio-mcp-server",
+    "url": "https://github.com/HumanSignal/label-studio-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jjsantos01/jupyter-notebook-mcp",
+    "url": "https://github.com/jjsantos01/jupyter-notebook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jonahthan433/cortexcloud-mcp",
+    "url": "https://github.com/jonahthan433/cortexcloud-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lihtness/gnomon-mcp",
+    "url": "https://github.com/lihtness/gnomon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mckinsey/vizro-mcp",
+    "url": "https://github.com/mckinsey/vizro/tree/main/vizro-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "optuna/optuna-mcp",
+    "url": "https://github.com/optuna/optuna-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TensorLink-AI/ephemeris-mcp",
+    "url": "https://github.com/TensorLink-AI/ephemeris-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "98lukehall/renoun-mcp",
+    "url": "https://github.com/98lukehall/renoun-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "subelsky/bundler_mcp",
+    "url": "https://github.com/subelsky/bundler_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zcaceres/markdownify-mcp",
+    "url": "https://github.com/zcaceres/markdownify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tufantunc/axiom-advanced-math-mcp",
+    "url": "https://github.com/tufantunc/axiom-advanced-math-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hanshs474/jevx-mcp",
+    "url": "https://github.com/hanshs474/jevx-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "0x1abin/matter-controller-mcp",
+    "url": "https://github.com/0x1abin/matter-controller-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JannLeo/telinksdk-builder-mcp",
+    "url": "https://github.com/JannLeo/telinksdk-builder-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "adancurusul/embedded-debugger-mcp",
+    "url": "https://github.com/adancurusul/embedded-debugger-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "adancurusul/serial-mcp-server",
+    "url": "https://github.com/adancurusul/serial-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ByteAsk/ByteAsk-Embedded-MCP",
+    "url": "https://github.com/ByteAsk/ByteAsk-Embedded-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "horw/esp-mcp",
+    "url": "https://github.com/horw/esp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/modbus-mcp",
+    "url": "https://github.com/kukapay/modbus-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/opcua-mcp",
+    "url": "https://github.com/kukapay/opcua-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lxman/obsbot-mcp",
+    "url": "https://github.com/lxman/obsbot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "octoco-ltd/sheetsdata-mcp",
+    "url": "https://github.com/octoco-ltd/sheetsdata-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "powerdragonfire/platformio.mcp",
+    "url": "https://github.com/powerdragonfire/platformio.mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "turbyho/fw-context-mcp",
+    "url": "https://github.com/turbyho/fw-context-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yoelbassin/gnuradioMCP",
+    "url": "https://github.com/yoelbassin/gnuradioMCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zackpeters93/ugs-mcp",
+    "url": "https://github.com/zackpeters93/ugs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Gearotons/servomotor-mcp",
+    "url": "https://github.com/Gearotons/servomotor-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "admin978/canvas-mcp",
+    "url": "https://github.com/admin978/canvas-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AnonymousOnyx22/brightspace-d2l-mcp",
+    "url": "https://github.com/AnonymousOnyx22/brightspace-d2l-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Connectry-io/connectrylab-architect-cert-mcp",
+    "url": "https://github.com/Connectry-io/connectrylab-architect-cert-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "csmediapro/moodle-mcp-server",
+    "url": "https://github.com/csmediapro/moodle-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "giacomomaria81/scorm-mcp-server",
+    "url": "https://github.com/giacomomaria81/scorm-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ictinnovations/ictexam-mcp",
+    "url": "https://github.com/ictinnovations/ictexam-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "RohanMuppa/brightspace-mcp-server",
+    "url": "https://github.com/RohanMuppa/brightspace-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Smartoire/paxaver-mcp",
+    "url": "https://github.com/Smartoire/paxaver-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HasData/walmart-mcp",
+    "url": "https://github.com/HasData/walmart-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HasData/amazon-mcp",
+    "url": "https://github.com/HasData/amazon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "agentcentral-to/agent-central-mcp",
+    "url": "https://github.com/agentcentral-to/agent-central-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "agentlux/agentlux-mcp",
+    "url": "https://github.com/agentlux/agentlux-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "anhmtk/agentshare-mcp",
+    "url": "https://github.com/anhmtk/agentshare-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "BuyWhere/buywhere-mcp",
+    "url": "https://github.com/BuyWhere/buywhere-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "koraynar/trendyol-seller-mcp",
+    "url": "https://github.com/koraynar/trendyol-seller-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ilyautov/marketplaces-mcp-ru",
+    "url": "https://github.com/ilyautov/marketplaces-mcp-ru",
+    "source": "awesome-github"
+  },
+  {
+    "name": "RPER2001/rigshare-mcp",
+    "url": "https://github.com/RPER2001/rigshare-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ilyautov/moysklad-mcp-ru",
+    "url": "https://github.com/ilyautov/moysklad-mcp-ru",
+    "source": "awesome-github"
+  },
+  {
+    "name": "justadityaraj/amazon-in-mcp",
+    "url": "https://github.com/justadityaraj/amazon-in-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jasp-nerd/marktplaats-mcp",
+    "url": "https://github.com/jasp-nerd/marktplaats-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jlsookiki/secondhand-mcp",
+    "url": "https://github.com/jlsookiki/secondhand-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mrslbt/rakuten-mcp",
+    "url": "https://github.com/mrslbt/rakuten-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "malinoto/tracepass-mcp-server",
+    "url": "https://github.com/malinoto/tracepass-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ncosic/logimu-shopping-mcp",
+    "url": "https://github.com/ncosic/logimu-shopping-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "OFODevelopment/cerebrochain-mcp-server",
+    "url": "https://github.com/OFODevelopment/cerebrochain-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "patchistry/patchistry-mcp-server",
+    "url": "https://github.com/patchistry/patchistry-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Pangolin-spg/amazon-data-mcp",
+    "url": "https://github.com/Pangolin-spg/amazon-data-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TheBestCo/bestprice-mcp",
+    "url": "https://github.com/TheBestCo/bestprice-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PCDCK/ozon-mcp",
+    "url": "https://github.com/PCDCK/ozon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pepabo/colormeshop-mcp",
+    "url": "https://github.com/pepabo/colormeshop-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nicktcode/swissgroceries-mcp",
+    "url": "https://github.com/nicktcode/swissgroceries-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wppoland/woocommerce-mcp",
+    "url": "https://github.com/wppoland/woocommerce-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ncosic/webotee-mcp",
+    "url": "https://github.com/ncosic/webotee-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ilyautov/chestny-znak-mcp-ru",
+    "url": "https://github.com/ilyautov/chestny-znak-mcp-ru",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ambeelabs/ambee-mcp",
+    "url": "https://github.com/ambeelabs/ambee-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aliafsahnoudeh/wildfire-mcp-server",
+    "url": "https://github.com/aliafsahnoudeh/wildfire-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "atmospore/atmospore-mcp",
+    "url": "https://github.com/atmospore/atmospore-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "malonestar/gov-data-mcp",
+    "url": "https://github.com/malonestar/gov-data-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zax0rz/birdnet-go-mcp",
+    "url": "https://github.com/zax0rz/birdnet-go-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aadilr/changethisfile-mcp",
+    "url": "https://github.com/aadilr/changethisfile-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Agaveis/hiberden-mcp",
+    "url": "https://github.com/Agaveis/hiberden-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ezpzfile/ezpzfile-mcp",
+    "url": "https://github.com/ezpzfile/ezpzfile-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "koraynar/doc-extract-mcp",
+    "url": "https://github.com/koraynar/doc-extract-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "convertica-net/convertica-mcp",
+    "url": "https://github.com/convertica-net/convertica-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dabito/hledit-mcp",
+    "url": "https://github.com/dabito/hledit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "denis-samatov/yandex-workspace-mcp",
+    "url": "https://github.com/denis-samatov/yandex-workspace-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "drolosoft/go-docs-mcp",
+    "url": "https://github.com/drolosoft/go-docs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "efforthye/fast-filesystem-mcp",
+    "url": "https://github.com/efforthye/fast-filesystem-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ellmos-ai/ellmos-filecommander-mcp",
+    "url": "https://github.com/ellmos-ai/ellmos-filecommander-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FI-Mihej/text_file_read_and_refactor_mcp",
+    "url": "https://github.com/FI-Mihej/text_file_read_and_refactor_mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "filesystem@quarkiverse/quarkus-mcp-servers",
+    "url": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/filesystem",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GuruPDF/gurupdf-mcp",
+    "url": "https://github.com/GuruPDF/gurupdf-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hmk/box-mcp-server",
+    "url": "https://github.com/hmk/box-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "j0hanz/filesystem-context-mcp-server",
+    "url": "https://github.com/j0hanz/filesystem-context-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jamalofski/conv2pdf-mcp",
+    "url": "https://github.com/jamalofski/conv2pdf-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jeannier/homebrew-mcp",
+    "url": "https://github.com/jeannier/homebrew-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MarceauSolutions/md-to-pdf-mcp",
+    "url": "https://github.com/MarceauSolutions/md-to-pdf-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "LincolnBurrows2017/filesystem-mcp",
+    "url": "https://github.com/LincolnBurrows2017/filesystem-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Regan-Milne/obsideo-mcp",
+    "url": "https://github.com/Regan-Milne/obsideo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "velyan/pdf-card-mcp",
+    "url": "https://github.com/velyan/pdf-card-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "willianpinho/large-file-mcp",
+    "url": "https://github.com/willianpinho/large-file-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "juergenkoller-software/distill-mcp",
+    "url": "https://github.com/juergenkoller-software/distill-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alebgl77/ftp-deploy-mcp",
+    "url": "https://github.com/alebgl77/ftp-deploy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gveshk/atlasyield-mcp",
+    "url": "https://github.com/gveshk/atlasyield-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "blazephoenixxyz-crypto/blazephoenix-mcp",
+    "url": "https://github.com/blazephoenixxyz-crypto/blazephoenix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cyberwareX/cyberwarex-mcp",
+    "url": "https://github.com/cyberwareX/cyberwarex-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "411sst/gst-einvoice-mcp",
+    "url": "https://github.com/411sst/gst-einvoice-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Calera-Labs/finsec-mcp",
+    "url": "https://github.com/Calera-Labs/finsec-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Val7h/dados-b3-mcp",
+    "url": "https://github.com/Val7h/dados-b3-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "donnywin85/dex-data-mcp",
+    "url": "https://github.com/donnywin85/dex-data-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Zenidp/solinkify-mcp",
+    "url": "https://github.com/Zenidp/solinkify-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pich/ai-economics-mcp",
+    "url": "https://github.com/pich/ai-economics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Luminc/peil-mcp",
+    "url": "https://github.com/Luminc/peil-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "toomasgutman-blip/facturolia-mcp",
+    "url": "https://github.com/toomasgutman-blip/facturolia-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SimonTarara62/capitalcom-mcp-server",
+    "url": "https://github.com/SimonTarara62/capitalcom-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mohsinmshabbir/datasaudi-mcp",
+    "url": "https://github.com/mohsinmshabbir/datasaudi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wkalidev/multichain-mcp",
+    "url": "https://github.com/wkalidev/multichain-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Nodeflare-app/nodeflare-mcp",
+    "url": "https://github.com/Nodeflare-app/nodeflare-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "InnarM/blank-invoice-maker-mcp",
+    "url": "https://github.com/InnarM/blank-invoice-maker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "george-kozlitin/borme-mcp",
+    "url": "https://github.com/george-kozlitin/borme-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "0rkz/byte-mcp-server",
+    "url": "https://github.com/0rkz/byte-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Savvly/savvly-mcp",
+    "url": "https://github.com/Savvly/savvly-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ShieldZCash/shieldz-mcp",
+    "url": "https://github.com/ShieldZCash/shieldz-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "eliasfire617/crypto-market-data-mcp",
+    "url": "https://github.com/eliasfire617/crypto-market-data-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Scottcjn/rustchain-mcp",
+    "url": "https://github.com/Scottcjn/rustchain-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ocbenji/bitcoinbenji-mcp",
+    "url": "https://github.com/ocbenji/bitcoinbenji-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Kali123411/k402-mcp",
+    "url": "https://github.com/Kali123411/k402-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "teodorofodocrispin-cmyk/intelica-mcp",
+    "url": "https://github.com/teodorofodocrispin-cmyk/intelica-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Logitale/toreador-mcp-server",
+    "url": "https://github.com/Logitale/toreador-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mrslbt/xendit-mcp",
+    "url": "https://github.com/mrslbt/xendit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "@arbitova/mcp-server",
+    "url": "https://github.com/jiayuanliang0716-max/Arbitova",
+    "source": "awesome-github"
+  },
+  {
+    "name": "@frihet/mcp-server",
+    "url": "https://github.com/Frihet-io/frihet-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "@iiatlas/hledger-mcp",
+    "url": "https://github.com/iiAtlas/hledger-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sukrutkrdg/x402-bazaar-mcp",
+    "url": "https://github.com/sukrutkrdg/x402-bazaar-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "0xDegenMo/lighter-mcp",
+    "url": "https://github.com/0xDegenMo/lighter-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aaronjmars/web3-research-mcp",
+    "url": "https://github.com/aaronjmars/web3-research-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AEGISGOVDAO/aegisgov-sec-mcp",
+    "url": "https://github.com/AEGISGOVDAO/aegisgov-sec-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ahmetsbilgin/finbrain-mcp",
+    "url": "https://github.com/ahmetsbilgin/finbrain-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ahnlabio/bicscan-mcp",
+    "url": "https://github.com/ahnlabio/bicscan-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "KK6BZB/signallord-mcp-server",
+    "url": "https://github.com/KK6BZB/signallord-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "unixlamadev-spec/aiprox-mcp",
+    "url": "https://github.com/unixlamadev-spec/aiprox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alchemy/alchemy-mcp-server",
+    "url": "https://github.com/alchemyplatform/alchemy-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alforge-labs/alpha-forge-mcp",
+    "url": "https://github.com/alforge-labs/alpha-forge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AlvisoOculus/optionsahoy-mcp",
+    "url": "https://github.com/AlvisoOculus/optionsahoy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "anjor/coinmarket-mcp-server",
+    "url": "https://github.com/anjor/coinmarket-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "araa47/jupiter-mcp",
+    "url": "https://github.com/araa47/jupiter-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jorkal-crypto/jorkal-nft-mcp",
+    "url": "https://github.com/jorkal-crypto/jorkal-nft-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ariadng/metatrader-mcp-server",
+    "url": "https://github.com/ariadng/metatrader-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "aranjan/kite-mcp",
+    "url": "https://github.com/aranjan/kite-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "armorwallet/armor-crypto-mcp",
+    "url": "https://github.com/armorwallet/armor-crypto-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "penmadebykisss/ru-business-mcp",
+    "url": "https://github.com/penmadebykisss/ru-business-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jackrain19743/hou-tea-mcp-server",
+    "url": "https://github.com/jackrain19743/hou-tea-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "autonsol/sol-mcp",
+    "url": "https://github.com/autonsol/sol-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vatnode/vatnode-mcp",
+    "url": "https://github.com/vatnode/vatnode-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vdalhambra/axiom-calculator-mcp",
+    "url": "https://github.com/vdalhambra/axiom-calculator-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Claynsn/agent-discovery-mcp",
+    "url": "https://github.com/Claynsn/agent-discovery-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cuthongthai-vn/vimo-mcp-server",
+    "url": "https://github.com/cuthongthai-vn/vimo-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bankless/onchain-mcp",
+    "url": "https://github.com/Bankless/onchain-mcp/",
+    "source": "awesome-github"
+  },
+  {
+    "name": "barkermoney/barker-mcp",
+    "url": "https://github.com/barkermoney/barker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "belegante-byte/aetherx-mcp",
+    "url": "https://github.com/belegante-byte/aetherx-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bguillow-rgb/itin-finance-mcp",
+    "url": "https://github.com/bguillow-rgb/itin-finance-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bolivian-peru/baozi-mcp",
+    "url": "https://github.com/bolivian-peru/baozi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cloudQuant/backtrader-mcp",
+    "url": "https://github.com/cloudQuant/backtrader-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "up2itnow0822/clawpay-mcp",
+    "url": "https://github.com/up2itnow0822/clawpay-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "berlinbra/alpha-vantage-mcp",
+    "url": "https://github.com/berlinbra/alpha-vantage-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jf-cmyk/blocksize-agentic-payments-mcp",
+    "url": "https://github.com/jf-cmyk/blocksize-agentic-payments-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Cyberweasel777/botindex-mcp-server",
+    "url": "https://github.com/Cyberweasel777/botindex-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Bortlesboat/bitcoin-mcp",
+    "url": "https://github.com/Bortlesboat/bitcoin-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ferinator/bullrun-mcp",
+    "url": "https://github.com/ferinator/bullrun-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AllRates-Today/central-bank-mcp",
+    "url": "https://github.com/AllRates-Today/central-bank-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cammac-creator/ibanforge-mcp",
+    "url": "https://github.com/cammac-creator/ibanforge",
+    "source": "awesome-github"
+  },
+  {
+    "name": "carsol/monarch-mcp-server",
+    "url": "https://github.com/carsol/monarch-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "chrisbusbin-pixel/propfirmdealfinder-mcp-server",
+    "url": "https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "grahammccain/chart-library-mcp",
+    "url": "https://github.com/grahammccain/chart-library-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "CryptoRugMunch/rug-munch-mcp",
+    "url": "https://github.com/CryptoRugMunch/rug-munch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "4dmrkey/cryptopolitan-mcp",
+    "url": "https://github.com/4dmrkey/cryptopolitan-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "codex-data/codex-mcp",
+    "url": "https://github.com/Codex-Data/codex-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "coinpaprika/coinpaprika-mcp",
+    "url": "https://github.com/coinpaprika/coinpaprika-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "coinpaprika/dexpaprika-mcp",
+    "url": "https://github.com/coinpaprika/dexpaprika-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "conviction-fm/conviction-mcp",
+    "url": "https://github.com/abcxz/conviction-fm",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Cubiczan/chp-mcp",
+    "url": "https://github.com/Cubiczan/chp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "debitura/Debitura.MCP",
+    "url": "https://github.com/debitura/Debitura.MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "debridge-finance/debridge-mcp",
+    "url": "https://github.com/debridge-finance/debridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "decksaga/market-pulse-mcp",
+    "url": "https://github.com/decksaga/market-pulse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Declan142/calcnook-mcp-server",
+    "url": "https://github.com/Declan142/calcnook-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "deficlow/zipp-mcp",
+    "url": "https://github.com/deficlow/zipp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "demwick/polymarket-agent-mcp",
+    "url": "https://github.com/demwick/polymarket-agent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "DevDizzle/gammarips-mcp",
+    "url": "https://github.com/DevDizzle/gammarips-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dan1d/dolar-mcp",
+    "url": "https://github.com/dan1d/dolar-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dkaleganov/mercury-multiorg-mcp",
+    "url": "https://github.com/dkaleganov/mercury-multiorg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "donnywin85/arb-dex-mcp",
+    "url": "https://github.com/donnywin85/arb-dex-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dqj1998/japan-company-info-mcp-bridge",
+    "url": "https://github.com/dqj1998/japan-company-info-mcp-bridge",
+    "source": "awesome-github"
+  },
+  {
+    "name": "equivault/equivault-mcp",
+    "url": "https://github.com/equivault/equivault-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AiAgentKarl/solana-mcp-server",
+    "url": "https://github.com/AiAgentKarl/solana-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ExpertVagabond/solana-mcp-server",
+    "url": "https://github.com/ExpertVagabond/solana-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "haiiibin/acb-tax-mcp",
+    "url": "https://github.com/haiiibin/acb-tax-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Haiku-Trading/haiku-mcp-server",
+    "url": "https://github.com/Haiku-Trading/haiku-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Hashlock-Tech/hashlock-mcp",
+    "url": "https://github.com/Hashlock-Tech/hashlock-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hifriendbot/agentwallet-mcp",
+    "url": "https://github.com/hifriendbot/agentwallet-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hernaninverso/eleata-einvoice-mcp",
+    "url": "https://github.com/hernaninverso/eleata-einvoice-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "etbars/vibetrader-mcp",
+    "url": "https://github.com/etbars/vibetrader-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FalsifyLab/falsifylab-alpha-mcp",
+    "url": "https://github.com/FalsifyLab/falsifylab-alpha-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "fdcommercial/property-finance-mcp",
+    "url": "https://github.com/fdcommercial/property-finance-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sh-patterson/fec-mcp-server",
+    "url": "https://github.com/sh-patterson/fec-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "stillmarcus24/stillos-notary-mcp",
+    "url": "https://github.com/stillmarcus24/stillos-notary-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ferdousbhai/wsb-analyst-mcp",
+    "url": "https://github.com/ferdousbhai/wsb-analyst-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "callbk/finlight-mcp",
+    "url": "https://github.com/callbk/finlight-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Finology-tech/finology-mcp",
+    "url": "https://github.com/Finology-tech/finology-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "foretak/registry-mcp",
+    "url": "https://github.com/foretak/registry-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Fund-z/fundzwatch-mcp",
+    "url": "https://github.com/Fund-z/fundzwatch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gabrielmahia/mpesa-mcp",
+    "url": "https://github.com/gabrielmahia/mpesa-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gblinproject/GBLIN-MCP",
+    "url": "https://github.com/gblinproject/GBLIN-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "GeiserX/cashpilot-mcp",
+    "url": "https://github.com/GeiserX/cashpilot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "cryptobriefing/gloria-mcp",
+    "url": "https://github.com/cryptobriefing/gloria-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gosodax/builders-sodax-mcp-server",
+    "url": "https://github.com/gosodax/builders-sodax-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "goodmeta/intelligence-mcp",
+    "url": "https://github.com/goodmeta/intelligence-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Helm-Protocol/openttt-mcp",
+    "url": "https://github.com/Helm-Protocol/openttt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "heurist-network/heurist-mesh-mcp-server",
+    "url": "https://github.com/heurist-network/heurist-mesh-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hive-intel/hive-crypto-mcp",
+    "url": "https://github.com/hive-intel/hive-crypto-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hypeprinter007-stack/signalfuse-mcp",
+    "url": "https://github.com/hypeprinter007-stack/signalfuse-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sentien-labs/verdictswarm-mcp",
+    "url": "https://github.com/sentien-labs/verdictswarm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hoqqun/stooq-mcp",
+    "url": "https://github.com/hoqqun/stooq-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "horustechltd/horus-flow-mcp",
+    "url": "https://github.com/horustechltd/horus-flow-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Hovsteder/powersun-tron-mcp",
+    "url": "https://github.com/Hovsteder/powersun-tron-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "human-beyond/mainbook-mcp",
+    "url": "https://github.com/human-beyond/mainbook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hypeprinter007-stack/anchor-x402-mcp",
+    "url": "https://github.com/hypeprinter007-stack/anchor-x402-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "icyberdeveloper/tbank-mcp",
+    "url": "https://github.com/icyberdeveloper/tbank-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ignaciohermosillacornejo/copilot-money-mcp",
+    "url": "https://github.com/ignaciohermosillacornejo/copilot-money-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "IMBAwallet/agent-mcp",
+    "url": "https://github.com/IMBAwallet/agent-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "IndigoProtocol/indigo-mcp",
+    "url": "https://github.com/IndigoProtocol/indigo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "IndigoProtocol/cardano-mcp",
+    "url": "https://github.com/IndigoProtocol/cardano-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "intentos-labs/beeper-mcp",
+    "url": "https://github.com/intentos-labs/beeper-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JacobiusMakes/parlay-api-mcp",
+    "url": "https://github.com/JacobiusMakes/parlay-api-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JamesANZ/bitcoin-mcp",
+    "url": "https://github.com/JamesANZ/bitcoin-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JamesANZ/evm-mcp",
+    "url": "https://github.com/JamesANZ/evm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JamesANZ/prediction-market-mcp",
+    "url": "https://github.com/JamesANZ/prediction-market-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Jeric1223/tossinvest-mcp",
+    "url": "https://github.com/Jeric1223/tossinvest-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jjlabsio/korea-stock-mcp",
+    "url": "https://github.com/jjlabsio/korea-stock-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JosueM1109/personal-finance-mcp",
+    "url": "https://github.com/JosueM1109/personal-finance-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jacobsd32-cpu/djd-agent-score-mcp",
+    "url": "https://github.com/jacobsd32-cpu/djd-agent-score-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kinance/circle-agent-stack-mcp",
+    "url": "https://github.com/kinance/circle-agent-stack-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/binance-alpha-mcp",
+    "url": "https://github.com/kukapay/binance-alpha-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/bitcoin-utxo-mcp",
+    "url": "https://github.com/kukapay/bitcoin-utxo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/blockbeats-mcp",
+    "url": "https://github.com/kukapay/blockbeats-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/blocknative-mcp",
+    "url": "https://github.com/kukapay/blocknative-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/bridge-metrics-mcp",
+    "url": "https://github.com/kukapay/bridge-metrics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/bridge-rates-mcp",
+    "url": "https://github.com/kukapay/bridge-rates-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/chainlink-feeds-mcp",
+    "url": "https://github.com/kukapay/chainlink-feeds-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/chainlist-mcp",
+    "url": "https://github.com/kukapay/chainlist-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/cointelegraph-mcp",
+    "url": "https://github.com/kukapay/cointelegraph-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-feargreed-mcp",
+    "url": "https://github.com/kukapay/crypto-feargreed-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-funds-mcp",
+    "url": "https://github.com/kukapay/crypto-funds-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-indicators-mcp",
+    "url": "https://github.com/kukapay/crypto-indicators-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-liquidations-mcp",
+    "url": "https://github.com/kukapay/crypto-liquidations-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-news-mcp",
+    "url": "https://github.com/kukapay/crypto-news-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-orderbook-mcp",
+    "url": "https://github.com/kukapay/crypto-orderbook-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-pegmon-mcp",
+    "url": "https://github.com/kukapay/crypto-pegmon-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-portfolio-mcp",
+    "url": "https://github.com/kukapay/crypto-portfolio-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-projects-mcp",
+    "url": "https://github.com/kukapay/crypto-projects-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-rss-mcp",
+    "url": "https://github.com/kukapay/crypto-rss-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-sentiment-mcp",
+    "url": "https://github.com/kukapay/crypto-sentiment-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-stocks-mcp",
+    "url": "https://github.com/kukapay/crypto-stocks-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-trending-mcp",
+    "url": "https://github.com/kukapay/crypto-trending-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/crypto-whitepapers-mcp",
+    "url": "https://github.com/kukapay/crypto-whitepapers-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/cryptopanic-mcp-server",
+    "url": "https://github.com/kukapay/cryptopanic-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "praveendias1180/easypaydirect-mcp",
+    "url": "https://github.com/praveendias1180/easypaydirect-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "LightSpeedPlusOne/invovate-mcp-server",
+    "url": "https://github.com/LightSpeedPlusOne/invovate-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mobymedia/polymarket-news-mcp",
+    "url": "https://github.com/mobymedia/polymarket-news-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "make-software/cspr-trade-mcp",
+    "url": "https://github.com/make-software/cspr-trade-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/dao-proposals-mcp",
+    "url": "https://github.com/kukapay/dao-proposals-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/defi-yields-mcp",
+    "url": "https://github.com/kukapay/defi-yields-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/dex-pools-mcp",
+    "url": "https://github.com/kukapay/dex-pools-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/dexscreener-trending-mcp",
+    "url": "https://github.com/kukapay/dexscreener-trending-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/dune-analytics-mcp",
+    "url": "https://github.com/kukapay/dune-analytics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/etf-flow-mcp",
+    "url": "https://github.com/kukapay/etf-flow-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/ethereum-validator-queue-mcp",
+    "url": "https://github.com/kukapay/ethereum-validator-queue-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/freqtrade-mcp",
+    "url": "https://github.com/kukapay/freqtrade-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/funding-rates-mcp",
+    "url": "https://github.com/kukapay/funding-rates-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/hyperliquid-info-mcp",
+    "url": "https://github.com/kukapay/hyperliquid-info-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/hyperliquid-whalealert-mcp",
+    "url": "https://github.com/kukapay/hyperliquid-whalealert-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/jupiter-mcp",
+    "url": "https://github.com/kukapay/jupiter-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/pancakeswap-poolspy-mcp",
+    "url": "https://github.com/kukapay/pancakeswap-poolspy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/polymarket-predictions-mcp",
+    "url": "https://github.com/kukapay/polymarket-predictions-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/pumpswap-mcp",
+    "url": "https://github.com/kukapay/pumpswap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/raydium-launchlab-mcp",
+    "url": "https://github.com/kukapay/raydium-launchlab-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/rug-check-mcp",
+    "url": "https://github.com/kukapay/rug-check-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/stargate-bridge-mcp",
+    "url": "https://github.com/kukapay/stargate-bridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/sui-trader-mcp",
+    "url": "https://github.com/kukapay/sui-trader-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/thegraph-mcp",
+    "url": "https://github.com/kukapay/thegraph-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/token-minter-mcp",
+    "url": "https://github.com/kukapay/token-minter-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/token-revoke-mcp",
+    "url": "https://github.com/kukapay/token-revoke-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/uniswap-poolspy-mcp",
+    "url": "https://github.com/kukapay/uniswap-poolspy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/uniswap-price-mcp",
+    "url": "https://github.com/kukapay/uniswap-price-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/uniswap-trader-mcp",
+    "url": "https://github.com/kukapay/uniswap-trader-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/wallet-inspector-mcp",
+    "url": "https://github.com/kukapay/wallet-inspector-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/web3-jobs-mcp",
+    "url": "https://github.com/kukapay/web3-jobs-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kukapay/whale-tracker-mcp",
+    "url": "https://github.com/kukapay/whale-tracker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Liquidiction/liquidiction-mcp",
+    "url": "https://github.com/Liquidiction/liquidiction-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Frontier-Compute/zcash-mcp",
+    "url": "https://github.com/Frontier-Compute/zcash-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "KyuRish/trading212-mcp-server",
+    "url": "https://github.com/KyuRish/trading212-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "laukikk/alpaca-mcp",
+    "url": "https://github.com/laukikk/alpaca-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lightningfaucet/lightning-wallet-mcp",
+    "url": "https://github.com/lightningfaucet/lightning-wallet-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "likidodefi/riskstate-mcp",
+    "url": "https://github.com/likidodefi/riskstate-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "unixlamadev-spec/lightningprox-mcp",
+    "url": "https://github.com/unixlamadev-spec/lightningprox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "unixlamadev-spec/lpxpoly-mcp",
+    "url": "https://github.com/unixlamadev-spec/lpxpoly-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "untitledfinancial/dpx-mcp",
+    "url": "https://github.com/untitledfinancial/dpx-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lnbits/LNbits-MCP-Server",
+    "url": "https://github.com/lnbits/LNbits-MCP-Server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "longbridge/longbridge-mcp",
+    "url": "https://github.com/longbridge/longbridge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "longportapp/longport-mcp",
+    "url": "https://github.com/longportapp/longport-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "makeev/alphai-mcp",
+    "url": "https://github.com/makeev/alphai-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "MarcinDudekDev/crypto-signals-mcp",
+    "url": "https://github.com/MarcinDudekDev/crypto-signals-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mathbeal/avenir-mcp",
+    "url": "https://github.com/mathbeal/avenir-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tresor4k/macalc-mcp",
+    "url": "https://github.com/tresor4k/macalc-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jacksun911/megalaunch-mcp",
+    "url": "https://github.com/jacksun911/megalaunch-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "narumiruna/yfinance-mcp",
+    "url": "https://github.com/narumiruna/yfinance-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nckhemanth0/subscription-tracker-mcp",
+    "url": "https://github.com/nckhemanth0/subscription-tracker-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "netanelavr/trading-mcp",
+    "url": "https://github.com/netanelavr/trading-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "nhantour/inferenceview-mcp",
+    "url": "https://github.com/nhantour/inferenceview-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "0x-devc/novai-mcp-server",
+    "url": "https://github.com/0x-devc/novai-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "noblabs/lit-forge-mcp",
+    "url": "https://github.com/noblabs/lit-forge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "none298-dotcom/mylinedchart-mcp-chart-context",
+    "url": "https://github.com/none298-dotcom/mylinedchart-mcp-chart-context",
+    "source": "awesome-github"
+  },
+  {
+    "name": "OctagonAI/octagon-mcp-server",
+    "url": "https://github.com/OctagonAI/octagon-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "olgasafonova/gleif-mcp-server",
+    "url": "https://github.com/olgasafonova/gleif-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "omni-fun-mcp-server",
+    "url": "https://github.com/0xzcov/omni-fun-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "omniologynow-rgb/profitspot-mcp",
+    "url": "https://github.com/omniologynow-rgb/profitspot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "orcalayer/orcalayer-mcp",
+    "url": "https://github.com/orcalayer/orcalayer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "partymola/monzo-mcp",
+    "url": "https://github.com/partymola/monzo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "paulf280-ui/solana-safe-sniper-mcp-template",
+    "url": "https://github.com/paulf280-ui/solana-safe-sniper-mcp-template",
+    "source": "awesome-github"
+  },
+  {
+    "name": "mikusnuz/pexbot-mcp",
+    "url": "https://github.com/mikusnuz/pexbot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PaulieB14/graph-aave-mcp",
+    "url": "https://github.com/PaulieB14/graph-aave-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PaulieB14/graph-polymarket-mcp",
+    "url": "https://github.com/PaulieB14/graph-polymarket-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "plagtech/spraay-x402-mcp",
+    "url": "https://github.com/plagtech/spraay-x402-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "PostOakLabs/ainumbers-mcp-apps",
+    "url": "https://github.com/PostOakLabs/ainumbers-mcp-apps",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pprotocol-us/problee-mcp",
+    "url": "https://github.com/pprotocol-us/problee-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pwh-pwh/coin-mcp-server",
+    "url": "https://github.com/pwh-pwh/coin-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pythia-the-oracle/pythia-oracle-mcp",
+    "url": "https://github.com/pythia-the-oracle/pythia-oracle-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "qbt-labs/openmm-mcp",
+    "url": "https://github.com/qbt-labs/openmm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "QuantGeekDev/coincap-mcp",
+    "url": "https://github.com/QuantGeekDev/coincap-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "QuantToGo/quanttogo-mcp",
+    "url": "https://github.com/QuantToGo/quanttogo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "QuentinCody/braintree-mcp-server",
+    "url": "https://github.com/QuentinCody/braintree-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "refined-element/lightning-enable-mcp",
+    "url": "https://github.com/refined-element/lightning-enable-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Regenerating-World/pix-mcp",
+    "url": "https://github.com/Regenerating-World/pix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rascal-3/chainanalyzer-mcp",
+    "url": "https://github.com/rascal-3/chainanalyzer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vdmeu/registrum-mcp",
+    "url": "https://github.com/vdmeu/registrum-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ryansilk/apexvol-mcp",
+    "url": "https://github.com/ryansilk/apexvol-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop",
+    "url": "https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop.git",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop",
+    "url": "https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop.git",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sapph1re/findata-mcp",
+    "url": "https://github.com/sapph1re/findata-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sailorpepe/litvm-tcg-oracle-mcp",
+    "url": "https://github.com/sailorpepe/litvm-tcg-oracle-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sailorpepe/undesirables-mcp-server",
+    "url": "https://github.com/sailorpepe/undesirables-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "scjang01/tossinvest-mcp",
+    "url": "https://github.com/scjang01/tossinvest-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "seaworthy-io/seaworthy-mcp",
+    "url": "https://github.com/seaworthy-io/seaworthy-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Setell-AI/setell-mcp",
+    "url": "https://github.com/Setell-AI/setell-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "shareseer/shareseer-mcp-server",
+    "url": "https://github.com/shareseer/shareseer-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "lmwharton/sieve-mcp",
+    "url": "https://github.com/lmwharton/sieve-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SiftingIO/siftingio-mcp",
+    "url": "https://github.com/SiftingIO/siftingio-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SidneyBissoli/bcb-br-mcp",
+    "url": "https://github.com/SidneyBissoli/bcb-br-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "signal8ai/signal8-mcp",
+    "url": "https://github.com/signal8ai/signal8-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "smythmyke/govtoolspro-mcp-server",
+    "url": "https://github.com/smythmyke/govtoolspro-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "subsquid-labs/portal-mcp-server",
+    "url": "https://github.com/subsquid-labs/portal-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SupplyMaven-SCR/supplymaven-mcp-server",
+    "url": "https://github.com/SupplyMaven-SCR/supplymaven-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "swiftnodes/swiftnodes-mcp",
+    "url": "https://github.com/swiftnodes/swiftnodes-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "szhygulin/recon-crypto-mcp",
+    "url": "https://github.com/szhygulin/recon-crypto-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tatumio/blockchain-mcp",
+    "url": "https://github.com/tatumio/blockchain-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ThomasMarches/substrate-mcp-rs",
+    "url": "https://github.com/ThomasMarches/substrate-mcp-rs",
+    "source": "awesome-github"
+  },
+  {
+    "name": "traceloop/opentelemetry-mcp-server",
+    "url": "https://github.com/traceloop/opentelemetry-mcp-server.git",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Trade-Agent/trade-agent-mcp",
+    "url": "https://github.com/Trade-Agent/trade-agent-mcp.git",
+    "source": "awesome-github"
+  },
+  {
+    "name": "TradeRouter/trade-router-mcp",
+    "url": "https://github.com/TradeRouter/trade-router-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "trayders/trayd-mcp",
+    "url": "https://github.com/trayders/trayd-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "VENTURE-AI-LABS/cryptodataapi-mcp",
+    "url": "https://github.com/VENTURE-AI-LABS/cryptodataapi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "veroq-ai/veroq-mcp",
+    "url": "https://github.com/veroq-ai/veroq-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "szhygulin/vaultpilot-mcp",
+    "url": "https://github.com/szhygulin/vaultpilot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "wowinter13/solscan-mcp",
+    "url": "https://github.com/wowinter13/solscan-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "W3Ship/w3ledger-mcp-server",
+    "url": "https://github.com/baskcart/w3ledger-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "vdalhambra/financekit-mcp",
+    "url": "https://github.com/vdalhambra/financekit-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "XeroAPI/xero-mcp-server",
+    "url": "https://github.com/XeroAPI/xero-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yamariki-hub/japan-corporate-mcp",
+    "url": "https://github.com/yamariki-hub/japan-corporate-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yli769227-jpg/ashare-mcp",
+    "url": "https://github.com/yli769227-jpg/ashare-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ypratap11/dokimo-mcp",
+    "url": "https://github.com/ypratap11/dokimo-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zlinzzzz/finData-mcp-server",
+    "url": "https://github.com/zlinzzzz/finData-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "zolo-ryan/MarketAuxMcpServer",
+    "url": "https://github.com/Zolo-Ryan/MarketAuxMcpServer",
+    "source": "awesome-github"
+  },
+  {
+    "name": "thoughtproof/thoughtproof-mcp",
+    "url": "https://github.com/ThoughtProof/thoughtproof-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tickerdb/tickerdb-mcp",
+    "url": "https://github.com/tickerdb/tickerdb-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "tunedforai/x402-mcp",
+    "url": "https://github.com/tunedforai/x402-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "toolstem/toolstem-mcp-server",
+    "url": "https://github.com/toolstem/toolstem-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "toolstem/toolstem-sec-mcp-server",
+    "url": "https://github.com/toolstem/toolstem-sec-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pickelfintech/the13f-mcp",
+    "url": "https://github.com/pickelfintech/the13f-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pineforge-4pass/pineforge-codegen-mcp",
+    "url": "https://github.com/pineforge-4pass/pineforge-codegen-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "michalperni11-gif/secfinapi-mcp",
+    "url": "https://github.com/michalperni11-gif/secfinapi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "namixai/funding-mcp",
+    "url": "https://github.com/namixai/funding-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "namixai/signer-mcp",
+    "url": "https://github.com/namixai/signer-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "JeongSeongMok/tossinvest-openapi-mcp",
+    "url": "https://github.com/JeongSeongMok/tossinvest-openapi-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Gainium/gainium-mcp",
+    "url": "https://github.com/Gainium/gainium-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ENTIA-IA/entia-mcp-server",
+    "url": "https://github.com/ENTIA-IA/entia-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ninetails-io/gnucash-mcp",
+    "url": "https://github.com/ninetails-io/gnucash-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "viniciuslazzari/bolsai-mcp",
+    "url": "https://github.com/viniciuslazzari/bolsai-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "@agentfund/mcp",
+    "url": "https://github.com/agentIgris/agentfund",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sebastienrousseau/camt053-mcp",
+    "url": "https://github.com/sebastienrousseau/camt053-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sebastienrousseau/pacs008-mcp",
+    "url": "https://github.com/sebastienrousseau/pacs008-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "slenderongithub/fix-protocol-mcp",
+    "url": "https://github.com/slenderongithub/fix-protocol-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sturs49/cryptotaxedge-mcp",
+    "url": "https://github.com/sturs49/cryptotaxedge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "sand0vvv/hyperevm-mcp",
+    "url": "https://github.com/sand0vvv/hyperevm-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ravndex/ravn-mcp-glama",
+    "url": "https://github.com/ravndex/ravn-mcp-glama",
+    "source": "awesome-github"
+  },
+  {
+    "name": "henfrydls/actual-budget-mcp",
+    "url": "https://github.com/henfrydls/actual-budget-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yourmatematt/agent-billboard-mcp",
+    "url": "https://github.com/yourmatematt/agent-billboard-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "airblock2026/bit-monk-signal-mcp",
+    "url": "https://github.com/airblock2026/bit-monk-signal-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "3aKHP/prts-mcp",
+    "url": "https://github.com/3aKHP/prts-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "antics-gg/antics-mcp",
+    "url": "https://github.com/antics-gg/antics-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "beckettlab/beckett-godot-mcp",
+    "url": "https://github.com/beckettlab/beckett-godot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Coding-Solo/godot-mcp",
+    "url": "https://github.com/Coding-Solo/godot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "danielenricocahall/lorcana-mcp",
+    "url": "https://github.com/danielenricocahall/lorcana-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "DiegoLopez0208/RpgMakerMVUltimate-MCP",
+    "url": "https://github.com/DiegoLopez0208/RpgMakerMVUltimate-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Dreiev/l2calendar-mcp",
+    "url": "https://github.com/Dreiev/l2calendar-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "drknowhow/fluxdots-mcp",
+    "url": "https://github.com/drknowhow/fluxdots-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Erodenn/godot-mcp-runtime",
+    "url": "https://github.com/Erodenn/godot-mcp-runtime",
+    "source": "awesome-github"
+  },
+  {
+    "name": "german-krasnikov/unity-biome-mcp",
+    "url": "https://github.com/german-krasnikov/unity-biome-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hkaanengin/opendota-mcp-server",
+    "url": "https://github.com/hkaanengin/opendota-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "hope1026/weppy-roblox-mcp",
+    "url": "https://github.com/hope1026/weppy-roblox-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "isco-tec/scorezilla-mcp",
+    "url": "https://github.com/isco-tec/scorezilla-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "IvanMurzak/Unity-MCP",
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "source": "awesome-github"
+  },
+  {
+    "name": "taygunsavas/patina-unity-mcp",
+    "url": "https://github.com/taygunsavas/patina-unity-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jkiley129/steam-mcp",
+    "url": "https://github.com/jkiley129/steam-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "justinscott12/modrinth-mcp",
+    "url": "https://github.com/justinscott12/modrinth-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Grinv/steam-games-mcp",
+    "url": "https://github.com/Grinv/steam-games-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kitao/pyxel-mcp",
+    "url": "https://github.com/kitao/pyxel-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kkjdaniel/bgg-mcp",
+    "url": "https://github.com/kkjdaniel/bgg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "opgginc/opgg-mcp",
+    "url": "https://github.com/opgginc/opgg-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "pab1ito/chess-mcp",
+    "url": "https://github.com/pab1it0/chess-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ProjectMakersDE/horizOn-mcp",
+    "url": "https://github.com/ProjectMakersDE/horizOn-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "razz-games/razz-mcp",
+    "url": "https://github.com/razz-games/razz-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "rishijatia/fantasy-pl-mcp",
+    "url": "https://github.com/rishijatia/fantasy-pl-mcp/",
+    "source": "awesome-github"
+  },
+  {
+    "name": "SerifeusStudio/rpgmaker-xp-mcp",
+    "url": "https://github.com/SerifeusStudio/rpgmaker-xp-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "stagproject/sec-filings-mcp",
+    "url": "https://github.com/stagproject/sec-filings-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alex-gon/thegamecrafter-mcp-server",
+    "url": "https://github.com/alex-gon/thegamecrafter-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "jhomen368/steam-reviews-mcp",
+    "url": "https://github.com/jhomen368/steam-reviews-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "youichi-uda/godot-mcp-pro",
+    "url": "https://github.com/youichi-uda/godot-mcp-pro",
+    "source": "awesome-github"
+  },
+  {
+    "name": "HadiCherkaoui/crafty-mcp",
+    "url": "https://github.com/HadiCherkaoui/crafty-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "yanjingzhaisun/cozyvtt-mcp",
+    "url": "https://github.com/yanjingzhaisun/cozyvtt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Philongevity/phi-mcp-server",
+    "url": "https://github.com/Philongevity/phi-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "io.github.PhilipAD/health-export-mcp",
+    "url": "https://github.com/PhilipAD/health-export-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "proscar87/oura-mcp",
+    "url": "https://github.com/proscar87/oura-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Thecimal/quantified-self-mcp",
+    "url": "https://github.com/Thecimal/quantified-self-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "apiarya/wemo-mcp-server",
+    "url": "https://github.com/apiarya/wemo-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "kambriso/fritzbox-mcp-server",
+    "url": "https://github.com/kambriso/fritzbox-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ober37/ac-infinity-mcp",
+    "url": "https://github.com/ober37/ac-infinity-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "claymore666/debmatic-mcp",
+    "url": "https://github.com/claymore666/debmatic-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "NickoScope/nickol-knx-mcp",
+    "url": "https://github.com/NickoScope/nickol-knx-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "alexpfau/zigbee2mqtt-mcp",
+    "url": "https://github.com/alexpfau/zigbee2mqtt-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AbhijatSaxena/blink-camera-mcp",
+    "url": "https://github.com/AbhijatSaxena/blink-camera-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "FoundryNet/forge-mcp",
+    "url": "https://github.com/FoundryNet/forge-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "LGDiMaggio/predictive-maintenance-mcp",
+    "url": "https://github.com/LGDiMaggio/predictive-maintenance-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "purinzan/gx3-cli-mcp",
+    "url": "https://github.com/purinzan/gx3-cli-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dockndevai/ossian-mcp",
+    "url": "https://github.com/dockndevai/ossian-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "bborota/cairn-mcp",
+    "url": "https://github.com/bborota/cairn-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "dahshanlabs/klypix-mcp",
+    "url": "https://github.com/dahshanlabs/klypix-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "forgemeshlabs/library-mcp",
+    "url": "https://github.com/forgemeshlabs/library-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AIStorageDepot/aistoragedepot-mcp",
+    "url": "https://github.com/AIStorageDepot/aistoragedepot-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "gpitrella/memxus-remote-mcp",
+    "url": "https://github.com/gpitrella/memxus-remote-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "seanmeverett/shared-memory-mcp",
+    "url": "https://github.com/seanmeverett/shared-memory-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "soluai-spa/solucortex-mcp",
+    "url": "https://github.com/soluai-spa/solucortex-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "Fisher521/burn-mcp-server",
+    "url": "https://github.com/Fisher521/burn-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ahmetakyurt/zipmem-mcp",
+    "url": "https://github.com/ahmetakyurt/zipmem-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "andreas-roennestad/openhive-mcp",
+    "url": "https://github.com/andreas-roennestad/openhive-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AshutoshRaj97/agentready-mcp",
+    "url": "https://github.com/AshutoshRaj97/agentready-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "timmx7/acheron-mcp-server",
+    "url": "https://github.com/timmx7/acheron-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "agentic-mcp-tools/memora",
+    "url": "https://github.com/agentic-mcp-tools/memora",
+    "source": "awesome-github"
+  },
+  {
+    "name": "ailenshen/apple-notes-mcp",
+    "url": "https://github.com/ailenshen/apple-notes-mcp",
+    "source": "awesome-github"
+  },
+  {
+    "name": "AntonioTF5/soul-mcp-server",
+    "url": "https://github.com/AntonioTF5/soul-mcp-server",
+    "source": "awesome-github"
+  },
+  {
+    "name": "billy12151/memory-arbiter-mcp",
+    "url": "https://github.com/billy12151/memory-arbiter-mcp",
+    "source": "awesome-github"
+  }
+]
