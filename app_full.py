@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from flask_cors import CORS
+import hashlib
+import hmac
+import secrets
 import sqlite3
 import os
 import uuid
@@ -78,6 +81,10 @@ def init_db():
         FOREIGN KEY(org_id) REFERENCES organizations(id)
     )''')
 
+    org_columns = {row[1] for row in c.execute('PRAGMA table_info(organizations)')}
+    if 'api_key_hash' not in org_columns:
+        c.execute('ALTER TABLE organizations ADD COLUMN api_key_hash TEXT')
+
     finding_columns = {row[1] for row in c.execute('PRAGMA table_info(findings)')}
     if 'scan_id' not in finding_columns:
         c.execute('ALTER TABLE findings ADD COLUMN scan_id INTEGER')
@@ -98,44 +105,64 @@ def init_db():
 init_db()
 
 # ============ AUTH ENDPOINTS ============
+def _hash_api_key(api_key):
+    return hashlib.sha256(api_key.encode('utf-8')).hexdigest()
+
+
 @app.route('/auth/register', methods=['POST'])
 def register():
+    data = request.get_json(silent=True) or {}
+    org_name = (data.get('org_name') or '').strip()
+    if not org_name:
+        return jsonify({'error': 'org_name is required'}), 400
+    conn = sqlite3.connect(DB_FILE)
     try:
-        data = request.get_json()
-        org_name = data.get('org_name', f'org_{int(__import__("time").time())}')
-        conn = sqlite3.connect(DB_FILE)
         c = conn.cursor()
         c.execute('SELECT id FROM organizations WHERE name = ?', (org_name,))
-        existing = c.fetchone()
-        if existing:
-            org_id = existing[0]
-        else:
-            c.execute('INSERT INTO organizations (name, api_key) VALUES (?, ?)', (org_name, f'key_{org_name}'))
-            conn.commit()
-            org_id = c.lastrowid
+        if c.fetchone():
+            # Registration is not an authentication path: never mint a token for
+            # a tenant that already exists, or a known name is an impersonation.
+            return jsonify({'error': 'organization already exists; use /auth/login'}), 409
+        api_key = secrets.token_urlsafe(32)
+        c.execute(
+            'INSERT INTO organizations (name, api_key, api_key_hash) VALUES (?, ?, ?)',
+            (org_name, None, _hash_api_key(api_key)),
+        )
+        conn.commit()
+        org_id = c.lastrowid
         access_token = create_access_token(identity=str(org_id))
-        conn.close()
-        return jsonify({'access_token': access_token, 'org_id': org_id}), 200
+        return jsonify({'access_token': access_token, 'org_id': org_id, 'api_key': api_key}), 200
     except Exception as e:
         return _internal_error(e)
+    finally:
+        conn.close()
+
 
 @app.route('/auth/login', methods=['POST'])
 def login():
+    data = request.get_json(silent=True) or {}
+    org_name = (data.get('org_name') or '').strip()
+    api_key = data.get('api_key') or ''
+    if not org_name or not api_key:
+        return jsonify({'error': 'org_name and api_key are required'}), 400
+    conn = sqlite3.connect(DB_FILE)
     try:
-        data = request.get_json()
-        org_name = data.get('org_name')
-        conn = sqlite3.connect(DB_FILE)
         c = conn.cursor()
-        c.execute('SELECT id FROM organizations WHERE name = ?', (org_name,))
-        result = c.fetchone()
-        conn.close()
-        if not result:
-            return jsonify({'error': 'Not found'}), 404
-        org_id = result[0]
+        c.execute('SELECT id, api_key_hash FROM organizations WHERE name = ?', (org_name,))
+        row = c.fetchone()
+        if not row or not row[1]:
+            # Unknown tenant, or one created before keys were hashed: fail closed
+            # instead of issuing a token nobody had to prove they owned.
+            return jsonify({'error': 'invalid credentials'}), 401
+        org_id, stored_hash = row
+        if not hmac.compare_digest(stored_hash, _hash_api_key(api_key)):
+            return jsonify({'error': 'invalid credentials'}), 401
         access_token = create_access_token(identity=str(org_id))
         return jsonify({'access_token': access_token, 'org_id': org_id}), 200
     except Exception as e:
         return _internal_error(e)
+    finally:
+        conn.close()
 
 # ============ FINDINGS API ============
 @app.route('/api/findings', methods=['GET'])
