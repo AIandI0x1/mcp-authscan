@@ -87,7 +87,12 @@ def test_pointerless_401_falls_back_to_direct_rfc8414(module, pointerless_401_se
     Before the fix this raises UnboundLocalError on monolith and returns
     (None, None) on scan_main without ever requesting the well-known document.
     """
-    endpoints, discovery_info = module.discover_oauth_endpoints(pointerless_401_server)
+    # allow_private: the fixture is loopback, and F1's egress guard refuses
+    # non-global addresses unless the caller opts in - which is exactly what
+    # --allow-private does for a live scan.
+    endpoints, discovery_info = module.discover_oauth_endpoints(
+        pointerless_401_server, allow_private=True
+    )
 
     assert endpoints is not None, (
         "discovery gave up on a pointerless 401 instead of trying direct RFC 8414"
@@ -104,6 +109,6 @@ def test_pointerless_401_falls_back_to_direct_rfc8414(module, pointerless_401_se
 def test_pointerless_401_never_raises_unbound_local(pointerless_401_server):
     """The specific failure mode from the audit: UnboundLocalError on monolith."""
     try:
-        monolith.discover_oauth_endpoints(pointerless_401_server)
+        monolith.discover_oauth_endpoints(pointerless_401_server, allow_private=True)
     except UnboundLocalError as exc:  # pragma: no cover - the bug itself
         pytest.fail(f"pointerless 401 raised UnboundLocalError: {exc}")
