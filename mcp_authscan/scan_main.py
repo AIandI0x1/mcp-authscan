@@ -68,23 +68,40 @@ PRIVATE_IP_RANGES = [
 ]
 
 def is_private_ip(ip_str):
+    """True unless the address is globally routable.
+
+    Delegates to is_global_address so the target validator and the discovery
+    egress guard agree on what "public" means; the previous hand-written range
+    list missed CGNAT (100.64.0.0/10 - also Tailscale), 0.0.0.0, multicast and
+    IPv4-mapped IPv6.
+    """
     try:
-        ip = ipaddress.ip_address(ip_str)
-        return any(ip in net for net in PRIVATE_IP_RANGES)
+        ipaddress.ip_address(str(ip_str).split("%", 1)[0])
     except ValueError:
         return False
+    return not is_global_address(ip_str)
 
 def validate_target_host(hostname, port):
+    """Refuse a target whose *any* resolved address is not globally routable.
+
+    Checking only the first record let a name that answers with both a public
+    and a private address through: the scanner validated the public one and
+    then connected to whichever the stack preferred.
+    """
     try:
         addr_info = socket.getaddrinfo(hostname, port, type=socket.SOCK_STREAM)
-        if not addr_info:
-            raise ValueError(f"Cannot resolve {hostname}")
-        resolved_ip = addr_info[0][4][0]
-        if is_private_ip(resolved_ip):
-            raise ValueError(f"Target {hostname} resolves to private IP {resolved_ip} (DNS rebinding protection)")
-        return resolved_ip
     except socket.gaierror as e:
         raise ValueError(f"DNS resolution failed for {hostname}: {e}") from e
+    if not addr_info:
+        raise ValueError(f"Cannot resolve {hostname}")
+    addresses = sorted({info[4][0] for info in addr_info})
+    for address in addresses:
+        if not is_global_address(address):
+            raise ValueError(
+                f"Target {hostname} resolves to private IP {address} "
+                f"(DNS rebinding protection)"
+            )
+    return addresses[0]
 
 
 # Set from --allow-private so explicitly authorized local targets keep working.
