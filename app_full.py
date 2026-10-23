@@ -3,16 +3,33 @@ from flask_jwt_extended import JWTManager, create_access_token, jwt_required, ge
 from flask_cors import CORS
 import sqlite3
 import os
+import uuid
 from datetime import timedelta
 from mcp_authscan.scanner import MCPScanner, ScanError
 
 app = Flask(__name__)
-CORS(app)
+
+# CORS: only origins the operator names. The default allows none, so a browser
+# on any other origin cannot read responses with a token it obtained elsewhere.
+_allowed_origins = [origin.strip() for origin in os.environ.get('CORS_ORIGINS', '').split(',') if origin.strip()]
+CORS(app, origins=_allowed_origins)
 
 # Config
-app.config['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET', 'dev-secret-key')
-app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(days=30)
+# Fail closed: app.py already refuses to start without a secret, and this module
+# shipped a literal fallback that made every token forgeable by anyone who read
+# the source.
+app.config['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET') or os.environ.get('SESSION_SECRET')
+if not app.config['JWT_SECRET_KEY']:
+    raise RuntimeError('Set JWT_SECRET or SESSION_SECRET before starting app_full.')
+app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=int(os.environ.get('JWT_ACCESS_TOKEN_HOURS', '12')))
 jwt = JWTManager(app)
+
+
+def _internal_error(exc):
+    """Log the detail, return a correlation id - never the exception text."""
+    correlation_id = uuid.uuid4().hex[:12]
+    app.logger.exception('request failed (correlation_id=%s): %s', correlation_id, exc)
+    return jsonify({'error': 'internal error', 'correlation_id': correlation_id}), 500
 
 PORT = int(os.environ.get('PORT', 5000))
 DB_FILE = os.environ.get('DB_FILE', '/tmp/vata.db')
@@ -100,7 +117,7 @@ def register():
         conn.close()
         return jsonify({'access_token': access_token, 'org_id': org_id}), 200
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 @app.route('/auth/login', methods=['POST'])
 def login():
@@ -118,7 +135,7 @@ def login():
         access_token = create_access_token(identity=str(org_id))
         return jsonify({'access_token': access_token, 'org_id': org_id}), 200
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 # ============ FINDINGS API ============
 @app.route('/api/findings', methods=['GET'])
@@ -139,7 +156,7 @@ def get_findings():
         conn.close()
         return jsonify({'findings': findings}), 200
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 @app.route('/api/findings', methods=['POST'])
 @jwt_required()
@@ -155,7 +172,7 @@ def post_findings():
         conn.close()
         return jsonify({'status': 'ok'}), 201
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 # ============ THREAT INTELLIGENCE ============
 @app.route('/api/threat-intelligence', methods=['GET'])
@@ -183,7 +200,7 @@ def threat_intelligence():
             'trend_direction': 'increasing' if week > month/4 else 'decreasing'
         }), 200
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 # ============ COMPLIANCE SCORING ============
 @app.route('/api/reports/compliance', methods=['GET'])
@@ -207,7 +224,7 @@ def compliance_report():
             score = max(0, min(100, 100 - (risk_points / total)))
         return jsonify({'compliance_score': int(score), 'critical_findings': critical, 'high_findings': high, 'total_findings': total}), 200
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 # ============ SCANNING ORCHESTRATION ============
 @app.route('/api/scans/mcp', methods=['GET'])
@@ -233,7 +250,7 @@ def get_mcp_scans():
         } for row in rows]
         return jsonify({'scans': scans}), 200
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return _internal_error(e)
 
 
 @app.route('/api/scans/mcp', methods=['POST'])
