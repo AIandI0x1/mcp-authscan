@@ -10,6 +10,7 @@ Protocol: Tests JSON-RPC /initialize endpoint for 401 (OAuth required) or 200 (z
 Exit codes: 0=success, 1=auth failed, 2=unreachable, 3=preflight failed, 4=discovery incomplete.
 Output: Human-readable security report with probe results and deterministic SHA256 hash.
 """
+from mcp_authscan import __version__
 from mcp_authscan.report_copy import render_summary, check_counts
 import argparse, hashlib, json, re, sys, ipaddress, os, time, subprocess
 from datetime import datetime, timezone
@@ -77,6 +78,79 @@ def validate_target_host(hostname, port):
                 f"(DNS rebinding protection)"
             )
     return addresses[0]
+
+
+# Set from --allow-private so explicitly authorized local targets keep working.
+ALLOW_PRIVATE_TARGETS = False
+
+
+def is_global_address(address):
+    """True only for addresses that are globally routable.
+
+    ipaddress.is_global already excludes CGNAT (100.64.0.0/10, which is also
+    Tailscale's range), 0.0.0.0, reserved and documentation ranges that a
+    hand-written list misses - but CPython reports 224.0.0.0/4 (multicast) as
+    global, so multicast, unspecified and link-local are excluded explicitly.
+    IPv4-mapped IPv6 is unwrapped first so ::ffff:127.0.0.1 cannot slip past as
+    "not in the list".
+    """
+    try:
+        ip = ipaddress.ip_address(str(address).split("%", 1)[0])
+    except ValueError:
+        return False
+    mapped = getattr(ip, "ipv4_mapped", None)
+    if mapped is not None:
+        ip = mapped
+    if ip.is_multicast or ip.is_unspecified or ip.is_link_local or ip.is_reserved:
+        return False
+    return ip.is_global
+
+
+def assert_url_is_fetchable(url, allow_private=None):
+    """Refuse to fetch a URL that could reach the scanner's own network.
+
+    Discovery URLs arrive inside the target's HTTP responses, so the target
+    chooses them: a server can point resource_metadata at 169.254.169.254 or at
+    a Tailscale peer and turn the scanner into a request proxy. Only http(s) is
+    accepted, and every address the host resolves to must be globally routable.
+    """
+    if allow_private is None:
+        allow_private = ALLOW_PRIVATE_TARGETS
+    parsed = urlparse(url)
+    if parsed.scheme not in ("http", "https"):
+        raise ValueError(f"refusing to fetch non-HTTP(S) URL: {url}")
+    if not parsed.hostname:
+        raise ValueError(f"refusing to fetch URL without a host: {url}")
+    if allow_private:
+        return
+    port = parsed.port or (443 if parsed.scheme == "https" else 80)
+    try:
+        infos = socket.getaddrinfo(parsed.hostname, port, type=socket.SOCK_STREAM)
+    except socket.gaierror as exc:
+        raise ValueError(f"cannot resolve {parsed.hostname}: {exc}") from exc
+    for info in infos:
+        address = info[4][0]
+        if not is_global_address(address):
+            raise ValueError(
+                f"refusing to fetch {url}: {parsed.hostname} resolves to "
+                f"non-public address {address}"
+            )
+
+
+class _NoRedirect(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        raise HTTPError(req.full_url, code, f"redirect refused: {newurl}", headers, fp)
+
+
+def open_without_redirects(req, timeout=5):
+    """urlopen that refuses redirects.
+
+    Following a 30x would hand the destination choice back to the target and
+    defeat the address check above: a public URL that 302s to 127.0.0.1 passes
+    validation and lands internally.
+    """
+    return build_opener(_NoRedirect).open(req, timeout=timeout)
+
 
 
 # Set from --allow-private so explicitly authorized local targets keep working.
@@ -225,7 +299,7 @@ def _direct_rfc8414_discovery(base):
     return None, None
 
 
-def discover_oauth_endpoints(base_url, allow_private=None):
+def discover_oauth_endpoints(base_url):
     """
     RFC 9728 (MCP) → RFC 8414 (OAuth) discovery chain.
 
@@ -816,7 +890,7 @@ def scan_live_server(target_url):
 
     return findings, True, probe_status, discovery_info, probe_results
 
-VERSION = "1.1.2"
+VERSION = __version__  # derived from the package; see mcp_authscan/__init__.py
 PROBE_SET_VERSION = "1.1.0"  # 1.1.0: 9-probe OAuth server assessment (issuer, resource-binding, cache-control, cors, jwks, password-grant, pkce, redirect-uri, client-auth)
 
 def get_git_metadata(target_path):
